@@ -1,13 +1,13 @@
 import Layout from './layout'
 
-const HomePage = () => {
+const Contact = () => {
 
 	return (
 		<>
 			<Layout>
-				<p>Home Page</p>
+			<p>Contact me page</p>
 			</Layout>
 		</>
 	)
 }
-export default HomePage
+export default Contact

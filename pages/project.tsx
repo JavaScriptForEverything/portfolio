@@ -1,13 +1,13 @@
 import Layout from './layout'
 
-const HomePage = () => {
+const Project = () => {
 
 	return (
 		<>
 			<Layout>
-				<p>Home Page</p>
+				<p>Projects</p>
 			</Layout>
 		</>
 	)
 }
-export default HomePage
+export default Project
