@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import Layout from '@/layout'
+import { products } from '@/data/products'
 
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
@@ -14,6 +15,7 @@ import PersonIcon from '@mui/icons-material/Person'
 import CallIcon from '@mui/icons-material/Call'
 import AccountTreeIcon from '@mui/icons-material/AccountTree'
 import SkillsTable from '@/components/skillTable'
+import Product from '@/components/product'
 
 
 const navItems = [
@@ -22,6 +24,7 @@ const navItems = [
 	{ label: 'projects', path: '/project', icon: <AccountTreeIcon /> },
 	{ label: 'contact me', path: '/contact', icon: <CallIcon /> },
 ]
+
 
 
 const HomePage = () => {
@@ -105,26 +108,21 @@ const HomePage = () => {
 					<SkillsTable />
 				</Box>
 
-				{/* <Box sx={{ mt: 4 }}>
+				<Box sx={{ mt: 4 }}>
 					<Typography sx={ theme => ({
 						py: 1, px: 2,
 						backgroundColor: theme.palette.primary.main,
 						color: 'white',
-					})} paragraph>Projects</Typography>
+					})} paragraph id='project'>Projects</Typography>
 
-					<Box sx={{
-						position: 'relative',
-						height: 200
-					}}>
-						<Image 
-							src=''
-							alt=''
-							fill
-						/>
-					</Box>
-				</Box> */}
-
-				
+					<Grid container spacing={2}>
+						{products.map( (product, key) => (
+							<Grid key={key} item xs={12} sm={2} md={4}>
+								<Product {...product} />
+							</Grid>
+						))}
+					</Grid>
+				</Box>
 
 			</Layout>
 		</>

@@ -22,7 +22,7 @@ import AccountTreeIcon from '@mui/icons-material/AccountTree'
 const navItems = [
 	{ label: 'home', path: '/', icon: <HomeIcon /> },
 	{ label: 'about', path: '/about', icon: <PersonIcon /> },
-	{ label: 'projects', path: '/project', icon: <AccountTreeIcon /> },
+	{ label: 'projects', path: '/#project', icon: <AccountTreeIcon /> },
 	{ label: 'contact me', path: '/contact', icon: <CallIcon /> },
 ]
 
