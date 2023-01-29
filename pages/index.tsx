@@ -13,6 +13,8 @@ import MuiLink from '@mui/material/Link'
 import PersonIcon from '@mui/icons-material/Person'
 import CallIcon from '@mui/icons-material/Call'
 import AccountTreeIcon from '@mui/icons-material/AccountTree'
+import SkillsTable from '@/components/skillTable'
+
 
 const navItems = [
 	// { label: 'home', path: '/', icon: <HomeIcon /> },
@@ -20,6 +22,7 @@ const navItems = [
 	{ label: 'projects', path: '/project', icon: <AccountTreeIcon /> },
 	{ label: 'contact me', path: '/contact', icon: <CallIcon /> },
 ]
+
 
 const HomePage = () => {
 
@@ -98,6 +101,30 @@ const HomePage = () => {
 					</Grid>
 				</Grid>
 
+				<Box sx={{ mt: 4 }}>
+					<SkillsTable />
+				</Box>
+
+				{/* <Box sx={{ mt: 4 }}>
+					<Typography sx={ theme => ({
+						py: 1, px: 2,
+						backgroundColor: theme.palette.primary.main,
+						color: 'white',
+					})} paragraph>Projects</Typography>
+
+					<Box sx={{
+						position: 'relative',
+						height: 200
+					}}>
+						<Image 
+							src=''
+							alt=''
+							fill
+						/>
+					</Box>
+				</Box> */}
+
+				
 
 			</Layout>
 		</>

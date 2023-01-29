@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 import Box from '@mui/material/Box'
-import MuiLink from '@mui/material/Link'
 
 import GitHubIcon from '@mui/icons-material/GitHub'
 import YouTubeIcon from '@mui/icons-material/YouTube'
