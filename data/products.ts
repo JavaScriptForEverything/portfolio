@@ -11,7 +11,7 @@ export const products = [
 	{
 		id: '63691d3748944b433cc5ecda',
 		slug: 'shopping-showroom',
-		coverPhoto: '/images/screenshot.jpg',
+		coverPhoto: '/images/projects/next-amazona/cover-photo.png',
 		title: 'Shopping Showroom',
 		subheader: 'E-Commerce',
 		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",
@@ -31,7 +31,7 @@ export const products = [
 	{
 		id: '63691d3748944b433cc5ecdb',
 		slug: 'next-amazona-shopping-app',
-		coverPhoto: '/images/screenshot.jpg',
+		coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
 		title: 'Next Amazona',
 		subheader: 'E-Commerce',
 		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",
@@ -51,8 +51,8 @@ export const products = [
 	{
 		id: '63691d3748944b433cc5ecdc',
 		slug: 'front-end-coding-challange',
-		coverPhoto: '/images/screenshot.jpg',
-		title: 'Top Coder Programming Challange 2022 | Lemon Hive',
+		coverPhoto: '/images/projects/rick-and-morty/cover-photo.png',
+		title: 'Top Coder Challange | Lemon Hive',
 		subheader: 'Front-End Development',
 		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",
 		technologies: [
@@ -71,7 +71,7 @@ export const products = [
 	{
 		id: '63691d3748944b433cc5ecdd',
 		slug: 'natours-api',
-		coverPhoto: '/images/screenshot.jpg',
+		coverPhoto: '/images/projects/natours/cover-photo.jpg',
 		title: 'Natours API | By Jonos',
 		subheader: 'Node.js API',
 		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",

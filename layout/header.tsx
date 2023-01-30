@@ -19,7 +19,7 @@ import PersonIcon from '@mui/icons-material/Person'
 import CallIcon from '@mui/icons-material/Call'
 import AccountTreeIcon from '@mui/icons-material/AccountTree'
 
-const navItems = [
+export const navItems = [
 	{ label: 'home', path: '/', icon: <HomeIcon /> },
 	{ label: 'about', path: '/about', icon: <PersonIcon /> },
 	{ label: 'projects', path: '/#project', icon: <AccountTreeIcon /> },

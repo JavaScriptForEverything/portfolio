@@ -1,16 +1,15 @@
-import Alert from '@mui/material/Alert'
-import AlertTitle from '@mui/material/AlertTitle'
+import Link from 'next/link'
+
+import { useTheme } from '@mui/material/styles'
+
 import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import Card from '@mui/material/Card'
-import CardActionArea from '@mui/material/CardActionArea'
 import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
-import CardHeader from '@mui/material/CardHeader'
-import CardMedia from '@mui/material/CardMedia'
 import Chip from '@mui/material/Chip'
-import Typography from '@mui/material/Typography'
-import Link from 'next/link'
+import Image from 'next/image'
 
 
 type Props = {
@@ -37,22 +36,35 @@ const Product = (props: Props) => {
 		projectUrl,
 	} = props
 
+	const theme = useTheme()
+
 	return (
 		<>
 			<Card>
-				<Link href={`/project/${slug}`}>
-					<CardMedia 
-						component='img'
+				<Box sx={{ position: 'relative', height: { xs: 250, sm: 200 }, cursor: 'pointer' }}>
+					<Image 
 						src={coverPhoto}
 						alt={coverPhoto}
+						fill
+						onClick={() => alert('add modal')}
 					/>
-				</Link>
-				<CardHeader 
-					title={title}
-					subheader={subheader}
-					sx={{ pb: 0 }}
-				/>
-				<CardContent >
+				</Box>
+
+				<CardContent>
+					<Link href={`/project/${slug}`} style={{
+						color: theme.palette.primary.main,
+						textDecoration: 'none'
+					}}>
+						<Typography variant='h5' sx={{ 
+							width: 350,
+							whiteSpace: 'nowrap',
+							overflow: 'hidden',
+							textOverflow: 'ellipsis'
+						}}>{title}</Typography>
+					</Link>
+					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
+
+
 					<Typography variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
 
 					<Typography sx={{ mt: 2, mb: 1 }} variant='h6'> Technologies: </Typography>
@@ -84,13 +96,14 @@ const Product = (props: Props) => {
 						</Box>
 					</Box>
 				</CardContent>
+				
 
 				<CardActions sx={{ mt: 2 }}>
-					<Link href={websiteUrl}>
+					<Link href={websiteUrl} target='_blank' style={{ textDecoration: 'none' }}>
 						<Button variant='outlined' disabled={!websiteUrl.trim()}>Live Demo</Button>
 					</Link>
 
-					<Link href={projectUrl}>
+					<Link href={projectUrl} target='_blank' style={{ textDecoration: 'none' }}>
 						<Button variant='contained' disabled={!projectUrl.trim()}>Source Code</Button>
 					</Link>
 				</CardActions>

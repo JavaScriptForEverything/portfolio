@@ -10,20 +10,11 @@ import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import MuiLink from '@mui/material/Link'
 
-// import HomeIcon from '@mui/icons-material/Home'
-import PersonIcon from '@mui/icons-material/Person'
-import CallIcon from '@mui/icons-material/Call'
-import AccountTreeIcon from '@mui/icons-material/AccountTree'
+import { navItems } from '@/layout/header'
 import SkillsTable from '@/components/skillTable'
 import Product from '@/components/product'
 
 
-const navItems = [
-	// { label: 'home', path: '/', icon: <HomeIcon /> },
-	{ label: 'about', path: '/about', icon: <PersonIcon /> },
-	{ label: 'projects', path: '/project', icon: <AccountTreeIcon /> },
-	{ label: 'contact me', path: '/contact', icon: <CallIcon /> },
-]
 
 
 
@@ -51,8 +42,8 @@ const HomePage = () => {
 						</Typography>
 
 						<Box sx={{ display: 'flex', gap: 1 }}>
-							{navItems.map(({ label, icon, path }) => (
-							<Link key={label} href={path} passHref>
+							{navItems.filter( item => item.path !== '/').map(({ label, icon, path }) => (
+							<Link key={label} href={path} passHref style={{ textDecoration: 'none' }}>
 								<Button 
 									variant='outlined' 
 									size='small'
@@ -70,7 +61,8 @@ const HomePage = () => {
 									href='https://www.linkedin.com/in/javascriptforeverything/overlay/1635514732753/single-media-viewer/?profileId=ACoAADXLBKcBlmcS6KAyc5BTL9urWMAKZB1pJj4'
 									target='_blank'
 									passHref
-								> <MuiLink component='span' > linkedIn profile.  </MuiLink>
+									style={{ textDecoration: 'none' }}
+								> <MuiLink component='span'> linkedIn profile.</MuiLink>
 								</Link>
 							</Typography>
 
@@ -117,7 +109,7 @@ const HomePage = () => {
 
 					<Grid container spacing={2}>
 						{products.map( (product, key) => (
-							<Grid key={key} item xs={12} sm={2} md={4}>
+							<Grid key={key} item xs={12} sm={2} md={4} sx={{ display: 'flex' }}>
 								<Product {...product} />
 							</Grid>
 						))}
