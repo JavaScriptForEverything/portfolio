@@ -68,7 +68,7 @@ export const products = [
 			'Stripe ',
 		],
 		hasCredentials: false,
-		websiteUrl: '',
+		websiteUrl: 'https://rick-and-morty-ts.netlify.app/',
 		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty'
 	},
 	{
