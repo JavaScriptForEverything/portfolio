@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import Layout from '@/layout'
 import { products } from '@/data/products'
+import { useTheme } from '@mui/material/styles'
 
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
@@ -14,11 +15,17 @@ import { navItems } from '@/layout/header'
 import SkillsTable from '@/components/skillTable'
 import Product from '@/components/product'
 
+// import CardActions from '@mui/material/CardActions'
+// import Paper from '@mui/material/Paper'
+// import CardContent from '@mui/material/CardContent'
+// import Chip from '@mui/material/Chip'
+
 
 
 
 
 const HomePage = () => {
+	const theme = useTheme()
 
 	return (
 		<>
@@ -109,13 +116,98 @@ const HomePage = () => {
 
 					<Grid container spacing={2}>
 						{products.map( (product, key) => (
-							<Grid key={key} item xs={12} sm={2} md={4} sx={{ display: 'flex' }}>
+							<Grid key={key} item xs={12} sm={6} md={4} sx={{ 
+								display: 'flex', 
+							}}>
 								<Product {...product} />
 							</Grid>
 						))}
 					</Grid>
-				</Box>
 
+					{/* <Box sx={{
+						display: 'grid',
+						gridTemplateColumns: { xs: 'repeat(1, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(3, 1fr)'},
+						gridGap: 8*2,
+					}}>
+						{products.map( (product, key) => (
+							<Paper key={key} sx={{
+								display: 'flex',
+								flexDirection: 'column',
+								justifyContent: 'space-between'
+							}}>
+								<Box>
+									<Box sx={{ position: 'relative', height: { xs: 250, sm: 200 }, cursor: 'pointer' }}>
+										<Image 
+											src={product.coverPhoto}
+											alt={product.coverPhoto}
+											fill
+											onClick={() => alert('add modal')}
+										/>
+									</Box>
+									<CardContent>
+										<Link href={`/project/${product.slug}`} style={{
+											color: theme.palette.primary.main,
+											textDecoration: 'none'
+										}}>
+											<Typography variant='h5' sx={{ 
+												width: 350,
+												whiteSpace: 'nowrap',
+												overflow: 'hidden',
+												textOverflow: 'ellipsis'
+											}}>{product.title}</Typography>
+										</Link>
+										<Typography variant='body2' color='textSecondary' paragraph >{product.subheader}</Typography>
+
+										<Typography variant='body1' color='textSecondary' align='justify'> {product.summary} </Typography>
+
+										<Typography sx={{ mt: 2, mb: 1 }} variant='h6'> Technologies: </Typography>
+										<Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>
+											{product.technologies.map( technology => (
+												<Chip key={technology}
+													label={technology}
+													variant='outlined'
+													size='small'
+												/>
+											))}
+										</Box>
+
+										<Box sx={ theme => ({
+											display: product.hasCredentials ? 'block' : 'none',
+											border: `1px solid ${theme.palette.warning.light}`,
+											py: 1, px: 2,
+											mt: 4,
+										})} >
+											<Typography paragraph >Demo Account: </Typography>
+											<Box sx={{ display: 'flex', flexDirection: 'column' }}>
+												<Box>
+													<Typography color='textSecondary' variant='caption'>Username: </Typography>
+													<Typography color='textSecondary' variant='caption'>abc@gmail.com</Typography>
+												</Box>
+												<Box>
+													<Typography color='textSecondary' variant='caption'>Password: </Typography>
+													<Typography color='textSecondary' variant='caption'>asdfasdf</Typography>
+												</Box>
+											</Box>
+										</Box>
+									</CardContent>
+								</Box>
+
+								<Box>
+									<CardActions sx={{ mt: 2, }}>
+										<Link href={product.websiteUrl} target='_blank' style={{ textDecoration: 'none' }}>
+											<Button variant='outlined' disabled={!product.websiteUrl.trim()}>Live Demo</Button>
+										</Link>
+
+										<Link href={product.projectUrl} target='_blank' style={{ textDecoration: 'none' }}>
+											<Button variant='contained' disabled={!product.projectUrl.trim()}>Source Code</Button>
+										</Link>
+									</CardActions>
+								</Box>
+							</Paper>
+						))}
+					</Box> */}
+
+				</Box>
 			</Layout>
 		</>
 	)

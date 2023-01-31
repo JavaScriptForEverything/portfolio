@@ -25,6 +25,7 @@ export const products = [
 			'MongoDB',
 			'Stripe ',
 		],
+		hasCredentials: true,
 		websiteUrl: '',
 		projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql'
 	},
@@ -45,6 +46,7 @@ export const products = [
 			'MongoDB',
 			'Stripe ',
 		],
+		hasCredentials: true,
 		websiteUrl: '',
 		projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona'
 	},
@@ -65,6 +67,7 @@ export const products = [
 			'MongoDB',
 			'Stripe ',
 		],
+		hasCredentials: false,
 		websiteUrl: '',
 		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty'
 	},
@@ -85,6 +88,7 @@ export const products = [
 			'MongoDB',
 			'Stripe ',
 		],
+		hasCredentials: true,
 		websiteUrl: '',
 		projectUrl: 'https://github.com/JavaScriptForEverything/natours'
 	},

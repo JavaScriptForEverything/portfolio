@@ -20,8 +20,9 @@ type Props = {
 	title: string,
 	subheader: string,
 	summary: string,
+	hasCredentials: boolean,
 	websiteUrl: string,
-	projectUrl: string
+	projectUrl: string,
 }
 const Product = (props: Props) => {
 	const { 
@@ -32,6 +33,7 @@ const Product = (props: Props) => {
 		title,
 		subheader,
 		summary,
+		hasCredentials,
 		websiteUrl,
 		projectUrl,
 	} = props
@@ -40,7 +42,9 @@ const Product = (props: Props) => {
 
 	return (
 		<>
-			<Card>
+			<Card sx={{
+				// alignSelf: 'flex-end'
+			}}>
 				<Box sx={{ position: 'relative', height: { xs: 250, sm: 200 }, cursor: 'pointer' }}>
 					<Image 
 						src={coverPhoto}
@@ -64,7 +68,6 @@ const Product = (props: Props) => {
 					</Link>
 					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
 
-
 					<Typography variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
 
 					<Typography sx={{ mt: 2, mb: 1 }} variant='h6'> Technologies: </Typography>
@@ -79,9 +82,10 @@ const Product = (props: Props) => {
 					</Box>
 
 					<Box sx={ theme => ({
+						display: hasCredentials ? 'block' : 'none',
 						border: `1px solid ${theme.palette.warning.light}`,
 						py: 1, px: 2,
-						mt: 4
+						mt: 4,
 					})} >
 						<Typography paragraph >Demo Account: </Typography>
 						<Box sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -98,7 +102,7 @@ const Product = (props: Props) => {
 				</CardContent>
 				
 
-				<CardActions sx={{ mt: 2 }}>
+				<CardActions sx={{ mt: 2, }}>
 					<Link href={websiteUrl} target='_blank' style={{ textDecoration: 'none' }}>
 						<Button variant='outlined' disabled={!websiteUrl.trim()}>Live Demo</Button>
 					</Link>

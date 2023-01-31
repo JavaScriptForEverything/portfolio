@@ -5,7 +5,8 @@ import TableCell from '@mui/material/TableCell'
 import TableBody from '@mui/material/TableBody'
 import { blue } from '@mui/material/colors'
 	
-const header = ['Tranning Title', 'Topic', 'Institute', 'Duration' ]
+const institute = 'Institute'
+const header = ['Tranning Title', 'Topic', institute, 'Duration' ]
 const rows = [
 	{
 		title: 'Backend',
@@ -40,7 +41,13 @@ const SkillsTable = () => {
 							border: `1px solid ${theme.palette.primary.dark}`
 						}
 					})}>
-						{header.map((item, key) => (
+						{header.map((item, key) => item === institute ? (
+							<TableCell key={key} sx={{ 
+								color: '#ffffff', 
+								fontWeight: 600,
+								display: { xs: 'none', sm: 'table-cell' }
+							}} >{item} </TableCell>
+						) : (
 							<TableCell key={key} sx={{ color: '#ffffff', fontWeight: 600 }} >{item} </TableCell>
 						))}
 					</TableRow>
@@ -57,7 +64,7 @@ const SkillsTable = () => {
 							<TableCell>{topics.map( topic => (
 								<li key={topic}>{topic}</li>
 							))}</TableCell>
-							<TableCell>{institute}</TableCell>
+							<TableCell sx={{ display: { xs: 'none', sm: 'table-cell' }}}>{institute}</TableCell>
 							<TableCell>{duration}</TableCell>
 
 						</TableRow>
