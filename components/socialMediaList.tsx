@@ -7,7 +7,6 @@ import ListItem from '@mui/material/ListItem'
 import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
 import ListItemButton from '@mui/material/ListItemButton'
-import MuiLink from '@mui/material/Link'
 
 import { green, red } from '@mui/material/colors'
 
@@ -25,18 +24,16 @@ const socialMedias = [
 	{ 
 		label: 'Github',
 		title: 'Software Development Platform',
-		follower: 200,
-		people: '2.0%',
-		indicator: true,
+		follower: 20,
+		people: '.2%',
 		Icon: GitHubIcon, 
 		path: 'https://github.com/JavaScriptForEverything' 
 	},
 	{ 
 		label: 'Youtube',
 		title: 'Video Channel',
-		follower: 800,
-		people: '8.0%',
-		indicator: true,
+		follower: 2,
+		people: '0.0%',
 		Icon: YouTubeIcon, 
 		path: 'https://www.youtube.com/@JavaScriptForEverything' 
 	},
@@ -45,25 +42,22 @@ const socialMedias = [
 		title: 'Social Media',
 		follower: 30,
 		people: '1.0%',
-		indicator: false,
 		Icon: LinkedInIcon, 
 		path: 'https://www.linkedin.com/in/javascriptforeverything/' 
 	},
 	{ 
 		label: 'Twitter',
 		title: 'Social Media',
-		follower: 890,
-		people: '28.0%',
-		indicator: true,
+		follower: 20,
+		people: '.2%',
 		Icon: TwitterIcon, 
 		path: 'https://twitter.com/JSforEverything' 
 	},
 	{ 
 		label: 'Facebook',
 		title: 'Social Network',
-		follower: 990,
-		people: '4.9%',
-		indicator: true,
+		follower: 20,
+		people: '0.9%',
 		Icon: FacebookIcon, 
 		path: 'https://www.facebook.com/JavaScriptForEverything' 
 	},
@@ -72,7 +66,6 @@ const socialMedias = [
 		title: 'Social Network',
 		follower: 20,
 		people: '0.7%',
-		indicator: false,
 		Icon: InstagramIcon, 
 		path: 'https://www.instagram.com/javascriptforeverything/' 
 	},
@@ -94,7 +87,7 @@ const SocialMeidaList = () => {
 				</List>
 
 				<List>
-					{socialMedias.map( ({ label, title, follower, people, Icon, indicator, path }) => (
+					{socialMedias.map( ({ label, title, follower, people, Icon, path }) => (
 						<ListItem key={label} divider dense>
 							<ListItemButton disableGutters component={Link} href={path} target='_blank'>
 							<ListItemIcon><Icon /></ListItemIcon>
@@ -102,12 +95,12 @@ const SocialMeidaList = () => {
 								primary={label}
 								secondary={title}
 							/>
-							<Button disabled color='inherit' size='small' sx={{ fontWeight: 'bold' }} >{follower}</Button>
-							<Button disabled
-								color={ indicator ? 'success' : 'error' }
+							<Button color='inherit' size='small' sx={{ fontWeight: 'bold' }} >{follower}</Button>
+							<Button 
+								color={ follower >= 20 ? 'success' : 'error' }
 								size='small' 
-								startIcon={ indicator ?  <ArrowUpwardIcon fontSize='small' /> :<ArrowDownwardIcon fontSize='small' /> }
-								sx={{ backgroundColor: indicator ? green[50] : red[50] }}
+								startIcon={ follower >= 20 ?  <ArrowUpwardIcon fontSize='small' /> :<ArrowDownwardIcon fontSize='small' /> }
+								sx={{ backgroundColor: follower >= 20 ? green[50] : red[50] }}
 							>{people}</Button>
 							</ListItemButton>
 						</ListItem>
