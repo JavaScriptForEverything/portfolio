@@ -1,9 +1,13 @@
+import Link from 'next/link'
+
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
+import ListItemButton from '@mui/material/ListItemButton'
+import MuiLink from '@mui/material/Link'
 
 import { green, red } from '@mui/material/colors'
 
@@ -78,36 +82,38 @@ const SocialMeidaList = () => {
 
 	return (
 		<>
-			
-				<Box>
-					<List>
-						<ListItem>
+			<Box>
+				<List>
+					<ListItem>
+						<ListItemText 
+							primary='Social Network Visits'
+							secondary='300 social visitors'
+						/>
+						<Button color='primary' variant='outlined' disabled>View All</Button>
+					</ListItem>
+				</List>
+
+				<List>
+					{socialMedias.map( ({ label, title, follower, people, Icon, indicator, path }) => (
+						<ListItem key={label} divider dense>
+							<ListItemButton disableGutters component={Link} href={path} target='_blank'>
+							<ListItemIcon><Icon /></ListItemIcon>
 							<ListItemText 
-								primary='Social Network Visits'
-								secondary='4k social visitors'
+								primary={label}
+								secondary={title}
 							/>
-							<Button color='primary' variant='outlined'>View All</Button>
+							<Button disabled color='inherit' size='small' sx={{ fontWeight: 'bold' }} >{follower}</Button>
+							<Button disabled
+								color={ indicator ? 'success' : 'error' }
+								size='small' 
+								startIcon={ indicator ?  <ArrowUpwardIcon fontSize='small' /> :<ArrowDownwardIcon fontSize='small' /> }
+								sx={{ backgroundColor: indicator ? green[50] : red[50] }}
+							>{people}</Button>
+							</ListItemButton>
 						</ListItem>
-					</List>
-					<List>
-						{socialMedias.map( ({ label, title, follower, people, Icon, indicator }) => (
-							<ListItem key={label} divider dense>
-								<ListItemIcon><Icon /></ListItemIcon>
-								<ListItemText 
-									primary={label}
-									secondary={title}
-								/>
-								<Button color='inherit' size='small' sx={{ fontWeight: 'bold' }} >{follower}</Button>
-								<Button 
-									color={ indicator ? 'success' : 'error' }
-									size='small' 
-									startIcon={ indicator ?  <ArrowUpwardIcon fontSize='small' /> :<ArrowDownwardIcon fontSize='small' /> }
-									sx={{ backgroundColor: indicator ? green[50] : red[50] }}
-								>{people}</Button>
-							</ListItem>
-						))}
-					</List>
-				</Box>
+					))}
+				</List>
+			</Box>
 		</>
 	)
 }
