@@ -1,22 +1,30 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import { useState } from 'react'
 
 import { useTheme } from '@mui/material/styles'
 
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
+import IconButton from '@mui/material/IconButton'
+import Chip from '@mui/material/Chip'
 import Card from '@mui/material/Card'
 import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
-import Chip from '@mui/material/Chip'
-import Image from 'next/image'
+import Dialog from '@mui/material/Dialog'
+import DialogTitle from '@mui/material/DialogTitle'
+import DialogContent from '@mui/material/DialogContent'
 
+import CloseIcon from '@mui/icons-material/Close'
+import Carousel from './carousel'
 
 type Props = {
 	id?: string,
 	slug: string,
 	technologies: string[]
 	coverPhoto: string,
+	images: string[],
 	title: string,
 	subheader: string,
 	summary: string,
@@ -30,6 +38,7 @@ const Product = (props: Props) => {
 		slug,
 		technologies, 
 		coverPhoto,
+		images,
 		title,
 		subheader,
 		summary,
@@ -39,18 +48,21 @@ const Product = (props: Props) => {
 	} = props
 
 	const theme = useTheme()
+	const [ open, setOpen ] = useState(false)
+
+	const closeHandler = () => {
+		setOpen(false)
+	}
 
 	return (
 		<>
-			<Card sx={{
-				// alignSelf: 'flex-end'
-			}}>
+			<Card>
 				<Box sx={{ position: 'relative', height: { xs: 250, sm: 200 }, cursor: 'pointer' }}>
 					<Image 
 						src={coverPhoto}
 						alt={coverPhoto}
 						fill
-						onClick={() => alert('add modal')}
+						onClick={() => setOpen(true)}
 					/>
 				</Box>
 
@@ -112,6 +124,42 @@ const Product = (props: Props) => {
 					</Link>
 				</CardActions>
 			</Card>
+			<Dialog 
+				open={open}
+				onClose={closeHandler}
+			>
+					<Box sx={{
+						display: 'flex',
+						justifyContent: 'flex-end',
+						pt: 1, pr: 1
+					}}>
+						<IconButton size='small' sx={{ color: '#00000066' }} onClick={closeHandler}>
+							<CloseIcon sx={{ fontSize: 16 }} />
+						</IconButton>
+					</Box>
+
+				<DialogTitle sx={{ pt: 0, mt: -1 }}>
+					<Typography variant='h5' color='textSecondary'>{title}</Typography>
+					<Typography variant='caption' color='textSecondary'>{subheader}</Typography>
+				</DialogTitle>
+				<DialogContent>
+
+					{/* <Box sx={{ 
+						position: 'relative', 
+						width: { xs: 300, sm: 400 },
+						height: { xs: 150, sm: 200 }
+					}}>
+						<Image 
+							src={coverPhoto}
+							alt={coverPhoto}
+							// height={200}
+							fill
+						/>
+					</Box> */}
+
+						<Carousel images={images} />
+				</DialogContent>
+			</Dialog>
 		</>
 	)
 }
