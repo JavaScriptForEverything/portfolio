@@ -92,11 +92,13 @@ const HomePage = () => {
 					<Grid item xs={12} sm={6} >
 						<Box sx={ theme => ({ 
 							position: 'relative',
-							height: { xs: 400, sm: 600 }, 	// height mandatory
+							// height: { xs: 400, sm: 600 }, 	// height mandatory
+							height: { xs: 180, md: 300 }, 	// height mandatory
 							borderLeft: { xs: '1px solid transparent', sm: `1px solid ${theme.palette.divider}` }
 						})}>
 							<Image 
-								src='/images/aboutAvatar.png'
+								// src='/images/aboutAvatar.png'
+								src='/images/coverPhoto.png'
 								alt='user Avatar'
 								fill
 							/>
