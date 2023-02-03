@@ -115,13 +115,13 @@ const Product = (props: Props) => {
 				
 
 				<CardActions sx={{ mt: 2, }}>
-					<Link href={websiteUrl} target='_blank' style={{ textDecoration: 'none' }}>
-						<Button variant='outlined' disabled={!websiteUrl.trim()}>Live Demo</Button>
-					</Link>
+					<Button variant='outlined' disabled={!websiteUrl.startsWith('http')}>
+						<Link href={websiteUrl} target='_blank'  style={{ textDecoration: 'none', color: 'inherit' }}> Live Demo </Link>
+					</Button>
 
-					<Link href={projectUrl} target='_blank' style={{ textDecoration: 'none' }}>
-						<Button variant='contained' disabled={!projectUrl.trim()}>Source Code</Button>
-					</Link>
+					<Button variant='contained' disabled={!projectUrl.startsWith('http')}>
+						<Link href={projectUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}> Source Code </Link>
+					</Button>
 				</CardActions>
 			</Card>
 			<Dialog 
