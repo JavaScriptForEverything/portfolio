@@ -75,8 +75,9 @@ const HomePage = () => {
 
 							<Box sx={{ display: { xs: 'none', sm: 'block' } }}>
 							<Typography paragraph variant='body2'>
-								I&apos;m comfortable working with React applications. React, Redux and Next.js in frontend and node, 
-								Express, and MongoDB in the backend. CSS framework such as Material-UI or MUI and deploying 
+								I&apos;m comfortable working with React applications. 
+								<em><strong>React</strong></em>, Redux and <em><strong>Next.js</strong></em> in frontend and Node, 
+								Express, and MongoDB in the backend. CSS framework such as <em><strong>Material-UI or MUI</strong></em> and deploying 
 								applications with docker.
 							</Typography>
 

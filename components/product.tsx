@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 import { useTheme } from '@mui/material/styles'
+import Carousel from './carousel'
 
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
@@ -17,7 +18,6 @@ import DialogTitle from '@mui/material/DialogTitle'
 import DialogContent from '@mui/material/DialogContent'
 
 import CloseIcon from '@mui/icons-material/Close'
-import Carousel from './carousel'
 
 type Props = {
 	id?: string,

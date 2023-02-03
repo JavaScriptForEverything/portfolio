@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import { useState } from 'react'
 
 import * as myData from '@/data/me'
 import Layout from '@/layout'
-
+import Carousel from '@/components/carousel'
 
 import Grid from '@mui/material/Grid'
 import Box from '@mui/material/Box'
@@ -13,7 +14,11 @@ import IconButton  from '@mui/material/IconButton'
 import Tooltip  from '@mui/material/Tooltip'
 import Divider  from '@mui/material/Divider'
 import MuiLink  from '@mui/material/Link'
+import Dialog from '@mui/material/Dialog'
 
+import CloseIcon from '@mui/icons-material/Close'
+import DialogContent from '@mui/material/DialogContent'
+import DialogTitle from '@mui/material/DialogTitle'
 
 type ArrayObject = {
 	title: string
@@ -37,6 +42,10 @@ const getStack = <T extends ArrayObject>(title: string, stackArrayObject: T[], d
 
 
 const About = () => {
+	const [ open, setOpen ] = useState(false)
+
+	const closeHandler = () => setOpen(false)
+	
 
 	return (
 		<Layout>
@@ -57,7 +66,7 @@ const About = () => {
 								border: '0.1px solid lightgrey'
 							}} 
 						>
-							<Image src='/images/aboutAvatar.png' alt='aboutAvatar' layout='fill'/>
+							<Image src='/images/avatar.png' alt='aboutAvatar' layout='fill'/>
 						</Avatar>
 						<Typography color='primary' sx={{ mt: 1 }}>Riajul Islam</Typography>
 						<Typography>FullStack Developer: Next.js, TypeScript, GraphQL</Typography>
@@ -83,6 +92,21 @@ const About = () => {
 							&ldquo; The more I learned the more I wondered.  &rdquo;
 						</Typography>
 					</Paper>
+
+					<Paper sx={{ mt: 2 }}>
+						<Typography sx={{ py: 1, px: 2 }}>
+							Certificate given by &apos;Lemon Hive&apos; on <strong> <em> Top Coder Challage 2022 </em> </strong>
+						</Typography>
+
+						<Box sx={{ position: 'relative', height: 200, cursor: 'pointer' }}>
+							<Image 
+								src='/images/certificate_lemon_hive.png'
+								alt='/images/certificate_lemon_hive.png'
+								fill
+								onClick={() => setOpen(true)}
+							/>
+						</Box>
+					</Paper>
 				</Grid>
 
 				{/*-----[ Right Side ]------*/}
@@ -96,6 +120,16 @@ const About = () => {
 					</Paper>
 				</Grid>
 			</Grid>
+
+			<Dialog open={open} onClose={closeHandler} >
+				<Box sx={{ display: 'flex', justifyContent: 'flex-end', pt: 1, pr: 1 }}>
+					<IconButton size='small' sx={{ color: '#00000066' }} onClick={closeHandler}>
+						<CloseIcon sx={{ fontSize: 16 }} />
+					</IconButton>
+				</Box>
+					<Carousel images={['/images/certificate_lemon_hive.png']} />
+			</Dialog>
+
 		</Layout>
 	)
 }
