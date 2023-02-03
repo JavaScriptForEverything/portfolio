@@ -41,7 +41,7 @@ const Header = () => {
 		<Box sx={ theme => ({ pt: 1, borderBottom: `1px solid ${theme.palette.divider}` })}>
 			<Container>
 				<Box sx={{ display: { xs: 'block', sm: 'none' }}}>
-					<Box sx={{ display: 'flex', alignItems: 'center' }}>
+					<Box sx={{ display: 'flex', alignItems: 'center' }} component='section'>
 						<Box>
 							<IconButton onClick={openHandler}>
 								<MenuIcon />
@@ -59,8 +59,8 @@ const Header = () => {
 					</Box>
 				</Box>
 
-				<Box sx={{ display: { xs: 'none', sm: 'block' }}}>
-					<Box sx={{ display: 'flex', alignItems: 'center' }} >
+				<Box sx={{ display: { xs: 'none', sm: 'block' }}} component='section'>
+					<Box sx={{ display: 'flex', alignItems: 'center' }} component='nav'>
 						{navItems.map(({ label, path }, index, arr) => (
 							<Link key={label} href={path} passHref style={{
 								textDecoration: 'none',

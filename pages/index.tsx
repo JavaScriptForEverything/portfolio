@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
 import Layout from '@/layout'
 import { products } from '@/data/products'
-import { useTheme } from '@mui/material/styles'
+import Product from '@/components/product'
 
+import { useTheme } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
@@ -13,7 +15,6 @@ import MuiLink from '@mui/material/Link'
 
 import { navItems } from '@/layout/header'
 import SkillsTable from '@/components/skillTable'
-import Product from '@/components/product'
 
 // import CardActions from '@mui/material/CardActions'
 // import Paper from '@mui/material/Paper'
@@ -29,6 +30,20 @@ const HomePage = () => {
 
 	return (
 		<>
+			<Head>
+				<title>Portfolio | Home Page</title>
+				<meta name='description' content='portfolio for javascriptforeverything' />
+				<meta name='description' content='portfolio for riajul islam' />
+				<meta name='description' content='portfolio for robitops10' />
+				<meta name='description' content='portfolio for riaztora52' />
+				<meta name='description' content='Im a Full Stack Web Developer in Dhaka, Bangladesh.' />
+
+				<meta property="og:title" content="portfolio javascriptforeverything" />
+				<meta property="og:type" content="portfolio" />
+				<meta property="og:url" content="https://javascriptforeverything.vercel.app/" />
+				<meta property="og:image" content="https://github.com/JavaScriptForEverything/javascriptforeverything/raw/main/BannerForGithub.png?raw=true" />
+			</Head>
+
 			<Layout>
 				<Grid container spacing={4} sx={{ 
 					display: 'flex',
@@ -37,14 +52,14 @@ const HomePage = () => {
 				}}>
 
 					<Grid item xs={12} sm={6}>
-						<Typography variant='h4'>
+						<Typography variant='h4' component='h2'>
 							Hi there, I&apos;m 
 							<Typography component='span' variant='h4' color='primary' sx={{ fontFamily: 'custo-regular', pl: 1 }} > 
 								Riajul Islam 
 							</Typography>
 						</Typography>
 
-						<Typography color='textSecondary' paragraph variant='body2'>
+						<Typography color='textSecondary' paragraph variant='body2' component='h1'>
 							I&apos;m a Full Stack Web Developer in Dhaka, Bangladesh.	
 						</Typography>
 

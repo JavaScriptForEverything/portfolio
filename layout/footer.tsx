@@ -19,7 +19,7 @@ const sectionItems = [
 const Footer = () => {
 
 	return (
-		<>
+		<footer>
 		<Box sx={{ backgroundColor: '#282828', color: '#f9f9f9d0', mt: 6 }} >
 
 			<Container>
@@ -43,7 +43,7 @@ const Footer = () => {
 				py: 1
 			}}> All Right Reserved &copy;HashTAG </Typography>
 		</Box>
-		</>
+		</footer>
 	)
 }
 export default Footer

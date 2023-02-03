@@ -11,7 +11,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
 
 	return (
-		<>
+		<main>
 		<CssBaseline />
 
 			<Header />
@@ -19,7 +19,7 @@ const Layout = ({ children }: Props) => {
 				{children}
 			</Container>
 			<Footer />
-		</>
+		</main>
 	)
 }
 export default Layout

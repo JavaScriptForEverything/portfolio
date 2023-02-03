@@ -19,6 +19,7 @@ import Dialog from '@mui/material/Dialog'
 import CloseIcon from '@mui/icons-material/Close'
 import DialogContent from '@mui/material/DialogContent'
 import DialogTitle from '@mui/material/DialogTitle'
+import Head from 'next/head'
 
 type ArrayObject = {
 	title: string
@@ -49,6 +50,21 @@ const About = () => {
 
 	return (
 		<Layout>
+
+			<Head>
+				<title>Portfolio | About Page</title>
+				<meta name='description' content='portfolio for javascriptforeverything' />
+				<meta name='description' content='portfolio for riajul islam' />
+				<meta name='description' content='portfolio for robitops10' />
+				<meta name='description' content='portfolio for riaztora52' />
+				<meta name='description' content='FullStack Developer: Next.js, TypeScript, GraphQL' />
+
+				<meta property="og:title" content="portfolio javascriptforeverything" />
+				<meta property="og:type" content="portfolio" />
+				<meta property="og:url" content="https://javascriptforeverything.vercel.app/" />
+				<meta property="og:image" content="https://github.com/JavaScriptForEverything/javascriptforeverything/raw/main/BannerForGithub.png?raw=true" />
+			</Head>
+
 			<Grid container spacing={2} sx={{ mt: 2 }}>
 				{/*-----[ Left Side ]------*/}
 				<Grid item xs={12} md={4}>
@@ -68,8 +84,8 @@ const About = () => {
 						>
 							<Image src='/images/avatar.png' alt='aboutAvatar' layout='fill'/>
 						</Avatar>
-						<Typography color='primary' sx={{ mt: 1 }}>Riajul Islam</Typography>
-						<Typography>FullStack Developer: Next.js, TypeScript, GraphQL</Typography>
+						<Typography color='primary' sx={{ mt: 1 }} component='h2'>Riajul Islam</Typography>
+						<Typography component='h1'>FullStack Developer: Next.js, TypeScript, GraphQL</Typography>
 
 						<Box>
 						{ myData.socialMediaItems.map(({ label, Icon, path }) => (
@@ -81,7 +97,7 @@ const About = () => {
 						))}
 						</Box>
 
-						<Typography variant='body2' color='textSecondary' paragraph>
+						<Typography variant='body2' color='textSecondary' paragraph component='h3'>
 							Hi there, I am a <em>JavaScript Programmer</em>.  My Primary Goal is to building Web Application by <em><strong>Next.js</strong></em>, <em><strong>TypeScript</strong></em>, <em><strong>GraphQL</strong></em>, <em>React</em>, <em>Redux</em>, <em>Material-UI</em> in front-end and <em>Node</em>& <em>MongoDB(mongoose)</em> in back-end.
 						</Typography>
 						<Typography variant='body2' color='textSecondary' paragraph>
@@ -94,7 +110,7 @@ const About = () => {
 					</Paper>
 
 					<Paper sx={{ mt: 2 }}>
-						<Typography sx={{ py: 1, px: 2 }}>
+						<Typography sx={{ py: 1, px: 2 }} component='h4'>
 							Certificate given by &apos;Lemon Hive&apos; on <strong> <em> Top Coder Challage 2022 </em> </strong>
 						</Typography>
 

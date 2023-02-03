@@ -4,6 +4,7 @@ import Box from '@mui/material/Box'
 import Divider from '@mui/material/Divider'
 import ListItemText from '@mui/material/ListItemText'
 import Typography from '@mui/material/Typography'
+import Head from 'next/head'
 
 const contactArrayObject = [
 	{
@@ -31,8 +32,21 @@ const Contact = () => {
 
 
 	return (
-		<>
-			<Layout>
+		<Layout>
+			<Head>
+				<title>Portfolio | Contact Page</title>
+				<meta name='description' content='portfolio for javascriptforeverything' />
+				<meta name='description' content='portfolio for riajul islam' />
+				<meta name='description' content='portfolio for robitops10' />
+				<meta name='description' content='portfolio for riaztora52' />
+				<meta name='description' content='Anyone can contact up via bellow methods' />
+
+				<meta property="og:title" content="portfolio javascriptforeverything" />
+				<meta property="og:type" content="portfolio" />
+				<meta property="og:url" content="https://javascriptforeverything.vercel.app/" />
+				<meta property="og:image" content="https://github.com/JavaScriptForEverything/javascriptforeverything/raw/main/BannerForGithub.png?raw=true" />
+			</Head>
+
 
 				<Box sx={{ mt: 4, ...center }}>
 					<Typography variant='h6'> Contact Us </Typography>
@@ -62,8 +76,7 @@ const Contact = () => {
 
 
 				<SocialMeidaList />
-			</Layout>
-		</>
+		</Layout>
 	)
 }
 export default Contact
