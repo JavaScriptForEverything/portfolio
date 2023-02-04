@@ -25,7 +25,16 @@ export const products = [
 		],
 		title: 'Top Coder Challange | Lemon Hive',
 		subheader: 'Front-End Development Challange',
-		summary: `Top Coder Challenge 2022!  \nDear Contestant, \n\nCongratulations on your success in the Lemon Hive Top Coder Challenge 2022! We are pleased to present you with a certificate commemorating your achievement.  Attached to this email, you will find a copy of your certificate, as well as a selection of photos from the event. We hope that these memories will serve as a reminder of your hard work and dedication. We hope you will enjoy looking back on these memories and sharing them with your friends and family.`,
+		summary: `
+			Top Coder Challenge 2022!  Dear Contestant, Congratulations on your 
+			success in the Lemon Hive Top Coder Challenge 2022! We are pleased 
+			to present you with a certificate commemorating your achievement.  
+			Attached to this email, you will find a copy of your certificate, 
+			as well as a selection of photos from the event. We hope that these 
+			memories will serve as a reminder of your hard work and dedication. 
+			We hope you will enjoy looking back on these memories and sharing 
+			them with your friends and family.
+		`,
 		technologies: [
 			'React',
 			'Redux',
@@ -63,7 +72,14 @@ export const products = [
 		],
 		title: 'Shopping Showroom',
 		subheader: 'E-Commerce',
-		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",
+		summary: `
+			Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
+			only difference is that here used TypeScript instead of JavaScript, and
+			GraphQL instead of REST API. It has user dashboard, authentication via
+			JWT web token, forget password with email validation, and payment via Stripe.
+			beside it is fully responsive and user-friendly UI, to design used the Material-UI
+			framework for UX/UI design concept in mind.
+		`,
 		technologies: [
 			'Next.js',
 			'TypeScript',
@@ -107,7 +123,14 @@ export const products = [
 		],
 		title: 'Next Amazona',
 		subheader: 'E-Commerce',
-		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",
+		summary: `
+			This is my first server side rendering web application, which is fully 
+			functional and user-friendly UI. The technologies used in this project are
+			JavaScript, REST API, Material-UI, Redux-Toolkit, Git...
+			It has user dashboard, authentication via JWT web token, forget password with email 
+			validation, and payment via Stripe.  beside it is fully responsive and user-friendly UI, 
+			to design used the Material-UI framework for UX/UI design concept in mind.
+		`,
 		technologies: [
 			'Next.js',
 			'REST API',
@@ -132,7 +155,13 @@ export const products = [
 		],
 		title: 'Natours API | By Jonos',
 		subheader: 'Node.js API',
-		summary: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa at perferendis assumenda non. Accusantium, aliquam eaque earum commodi non voluptas consequatur distinctio, reiciendis architecto, illum perferendis incidunt quisquam ab dignissimos?",
+		summary: `
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+			Ipsa at perferendis assumenda non. Accusantium, aliquam 
+			eaque earum commodi non voluptas consequatur 
+			distinctio, reiciendis architecto, illum perferendis 
+			incidunt quisquam ab dignissimos?
+		`,
 		technologies: [
 			'Express.js',
 			'Node.js',
