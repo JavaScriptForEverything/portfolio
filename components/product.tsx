@@ -67,17 +67,17 @@ const Product = (props: Props) => {
 				</Box>
 
 				<CardContent>
-					<Link href={`/project/${slug}`} style={{
+					{/* <Link href={`/project/${slug}`} style={{
 						color: theme.palette.primary.main,
 						textDecoration: 'none'
-					}}>
-						<Typography variant='h5' sx={{ 
+					}}> */}
+						<Typography variant='h5' color='primary' sx={{ 
 							width: 350,
 							whiteSpace: 'nowrap',
 							overflow: 'hidden',
 							textOverflow: 'ellipsis'
 						}}>{title}</Typography>
-					</Link>
+					{/* </Link> */}
 					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
 
 					<Typography variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
