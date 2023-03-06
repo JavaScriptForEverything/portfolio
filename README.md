@@ -1,6 +1,6 @@
 ## My Portfolio: Next | TypeScript
 
-#### Live: `[https://javascriptforeverything.vercel.app/](https://javascriptforeverything.vercel.app/)`
+#### Live: [https://javascriptforeverything.vercel.app/](https://javascriptforeverything.vercel.app/)
 
 
 #### To Test On your Development machine
