@@ -1,8 +1,9 @@
-# My Portfolio: Next | TypeScript
+## My Portfolio: Next | TypeScript
 
-## Live: [https://javascriptforeverything.vercel.app/](https://javascriptforeverything.vercel.app/)
+#### Live: `[https://javascriptforeverything.vercel.app/](https://javascriptforeverything.vercel.app/)`
 
-## To Test On your Development machine
+
+#### To Test On your Development machine
 
 - Make sure `node` is installed  [ $ `node -v` 	indicate installed or not  ]
 - Make sure `yarn` is installed  [ $ `yarn -v` 	indicate installed or not  ]
@@ -17,5 +18,5 @@ $ yarn dev
 - Test on Browser: [http://localhost:3000](http://localhost:3000)
 
 
-## Notes:
+#### Notes:
 . `sharp` package used to optimize image, used by next.js internally
