@@ -63,7 +63,7 @@ const HomePage = () => {
 							I&apos;m a Full Stack Web Developer in Dhaka, Bangladesh.	
 						</Typography>
 
-						<Box sx={{ display: 'flex', gap: 1 }}>
+						<Box sx={{ display: 'flex', gap: 1, justifyContent: { xs: 'center', md: 'left' }}}>
 							{navItems.filter( item => item.path !== '/').map(({ label, icon, path }) => (
 							<Link key={label} href={path} passHref style={{ textDecoration: 'none' }}>
 								<Button 

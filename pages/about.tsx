@@ -131,7 +131,8 @@ const About = () => {
 
 					{ getStack('Web Development Stack', myData.webTechnologies) }
 					{ getStack('Development Tools', myData.developmentTools) }
-					{ getStack('Mobile App Development Stack', myData.mobileTechnologies, false) }
+					{ getStack('Mobile App Development Stack', myData.mobileTechnologies) }
+					{ getStack('Networking CCNA (GNS3) ', myData.networking, false) }
 
 					</Paper>
 				</Grid>

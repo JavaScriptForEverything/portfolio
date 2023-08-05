@@ -86,3 +86,14 @@ export const developmentTools = [
     description: 'Vittualization is a technologies, which give you virtual mechine to test and also in production'
   }
 ]
+
+export const networking = [
+  {
+    title: 'CCNA Routing & Switching',
+    description: 'How verious networking devices communicate with each other and transfer data'
+  },
+  {
+    title: 'CCNA Wireless',
+    description: 'How wireless technologies works: Home Router, WiFi Devices, IoT Devices (automation)'
+  }
+]

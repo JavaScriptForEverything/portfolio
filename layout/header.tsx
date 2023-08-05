@@ -18,12 +18,13 @@ import HomeIcon from '@mui/icons-material/Home'
 import PersonIcon from '@mui/icons-material/Person'
 import CallIcon from '@mui/icons-material/Call'
 import AccountTreeIcon from '@mui/icons-material/AccountTree'
+// import YouTubeIcon from '@mui/icons-material/YouTube'
 
 export const navItems = [
 	{ label: 'home', path: '/', icon: <HomeIcon /> },
 	{ label: 'about', path: '/about', icon: <PersonIcon /> },
 	{ label: 'projects', path: '/#project', icon: <AccountTreeIcon /> },
-	{ label: 'contact me', path: '/contact', icon: <CallIcon /> },
+	{ label: 'contact', path: '/contact', icon: <CallIcon /> },
 ]
 
 
