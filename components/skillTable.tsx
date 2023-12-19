@@ -10,19 +10,19 @@ const header = ['Tranning Title', 'Topic', institute, 'Duration' ]
 const rows = [
 	{
 		title: 'Backend',
-		topics: [ 'Node.js', 'Express.js', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
+		topics: [ 'Node.js', 'Express.js', 'Pug (templete)', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
 		institute: 'Online School',
 		duration: '2 Years'
 	},
 	{
 		title: 'Fronted',
-		topics: [ 'React', 'Redux', 'Material-UI', 'Next.js', 'TypeScript' ],
+		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io' ],
 		institute: 'Online School',
 		duration: '3 Years'
 	},
 	{
 		title: 'Tools',
-		topics: [ 'Git', 'Docker', 'Linux (Ubuntu, CentOS)', 'SSH', 'Virtualization', 'Vim (Text Editor)', ],
+		topics: [ 'Webpack', 'pug', 'Git', 'Docker', 'Linux (Ubuntu, CentOS)', 'SSH', 'Virtualization', 'Networking (CCNA)' ],
 		institute: 'Online School',
 		duration: '3 Years'
 	},

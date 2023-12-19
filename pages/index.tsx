@@ -92,7 +92,7 @@ const HomePage = () => {
 							<Typography paragraph variant='body2'>
 								I&apos;m comfortable working with React applications. 
 								<em><strong>React</strong></em>, Redux and <em><strong>Next.js</strong></em> in frontend and Node, 
-								Express, and MongoDB in the backend. CSS framework such as <em><strong>Material-UI or MUI</strong></em> and deploying 
+								Express, and MongoDB in the backend. CSS framework such as <em><strong>Tailwind-css</strong></em> and <em><strong>Material-UI or MUI</strong></em> and deploying 
 								applications with docker.
 							</Typography>
 

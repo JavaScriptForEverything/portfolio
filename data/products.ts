@@ -9,6 +9,48 @@
 
 export const products = [
 	{
+		id: '63691d3748944b433ce5ecdd',
+		slug: 'twitter-clone',
+		coverPhoto: '/images/projects/twitter-clone/cover-photo.png',
+		images: [
+			'/images/projects/twitter-clone/cover-photo.png',
+			'/images/projects/twitter-clone/images-1.png',
+			'/images/projects/twitter-clone/images-2.png',
+			'/images/projects/twitter-clone/images-3.png',
+			'/images/projects/twitter-clone/images-4.png',
+			'/images/projects/twitter-clone/images-5.png',
+			'/images/projects/twitter-clone/images-6.png',
+			'/images/projects/twitter-clone/images-7.png',
+			'/images/projects/twitter-clone/images-8.png',
+		],
+		title: 'Twitter Clone | Social-Media | Messaging',
+		subheader: 'Node-Express, MongoDB, Socket.io, Tailwind-css',
+		summary: `
+			It is a Social media app like twitter which allows
+		  Follow and unfollow other users,
+		  Create tweet, like/unlike tweet, and also retweet,
+		  Upload profile photo, Cover photo.
+		  Real Time chatting: Group chat, private chat,
+		  To create Group chat search users by name and shows selected users list before create chat
+		  in chat page will show all users on that chat room, in top with user avatar
+		  Users will see typing indicator of other users while chating.
+		  Hydration Rendering : ServerSide rendering + ClientSide rendering,
+		  API features : pagination, sorting, filtering, searching,
+		  Image upload : crop image, image with private route,
+		  Animation/Transition: scrolling animation, dialog transition, ...,
+		`,
+		technologies: [
+			'Node, Express',
+			'MongoDB',
+			'pug',
+			'Tailwind-css',
+			'Socket.io',
+		],
+		hasCredentials: false,
+		websiteUrl: 'https://twitter-clone-06nd.onrender.com/',
+		projectUrl: 'https://github.com/JavaScriptForEverything/twitter-clone'
+	},
+	{
 		id: '63691d3748944b433cc5ecdc',
 		slug: 'front-end-coding-challange',
 		coverPhoto: '/images/projects/rick-and-morty/cover-photo.png',
