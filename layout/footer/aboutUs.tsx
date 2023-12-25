@@ -13,7 +13,7 @@ const AboutUs = () => {
 			</Typography>
 				<Button
 					startIcon={<DownloadIcon />}
-					component='a' href='/files/footer_resume_me.pdf' download='riajul.islam.web.developer.pdf'
+					component='a' href='/files/riajul_islam.web-developer.pdf' download='riajul.islam.web.developer.pdf'
 				>Download Resume</Button>
 		</>
 	)
