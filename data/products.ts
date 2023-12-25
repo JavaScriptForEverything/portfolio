@@ -1,12 +1,3 @@
-
-
-	
-
-	
-	
-
-
-
 export const products = [
 	{
 		id: '63691d3748944b433ce5ecdd',
@@ -14,17 +5,23 @@ export const products = [
 		coverPhoto: '/images/projects/twitter-clone/cover-photo.png',
 		images: [
 			'/images/projects/twitter-clone/cover-photo.png',
-			'/images/projects/twitter-clone/images-1.png',
-			'/images/projects/twitter-clone/images-2.png',
-			'/images/projects/twitter-clone/images-3.png',
-			'/images/projects/twitter-clone/images-4.png',
-			'/images/projects/twitter-clone/images-5.png',
-			'/images/projects/twitter-clone/images-6.png',
-			'/images/projects/twitter-clone/images-7.png',
-			'/images/projects/twitter-clone/images-8.png',
+			'/images/projects/twitter-clone/chat-page.png',
+			'/images/projects/twitter-clone/emoji.png',
+			'/images/projects/twitter-clone/group-chat-1.png',
+			'/images/projects/twitter-clone/group-chat-reply.png',
+			'/images/projects/twitter-clone/home_page.png',
+			'/images/projects/twitter-clone/muli-user.png',
+			'/images/projects/twitter-clone/notification-page.png',
+			'/images/projects/twitter-clone/reply-tweet.png',
+			'/images/projects/twitter-clone/searching-result.png',
+			'/images/projects/twitter-clone/search-page.png',
+			'/images/projects/twitter-clone/search-tweets.png',
+			'/images/projects/twitter-clone/sing-chat-2.png',
+			'/images/projects/twitter-clone/sing-chat.png',
+			'/images/projects/twitter-clone/tweet-details-page.png',
 		],
-		title: 'Twitter Clone | Social-Media | Messaging',
-		subheader: 'Node-Express, MongoDB, Socket.io, Tailwind-css',
+		title: 'Twitter Clone | Node, Express, MongoDB, pug, socket.io, Tailwind-css | Full-Stack ',
+		subheader: 'Social-Media Application',
 		summary: `
 			It is a Social media app like twitter which allows
 		  Follow and unfollow other users,
@@ -48,7 +45,8 @@ export const products = [
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://twitter-clone-06nd.onrender.com/',
-		projectUrl: 'https://github.com/JavaScriptForEverything/twitter-clone'
+		projectUrl: 'https://github.com/JavaScriptForEverything/twitter-clone',
+		videoUrl: 'https://youtu.be/pSLaFQgS7qQ'
 	},
 	{
 		id: '63691d3748944b433cc5ecdc',
@@ -87,7 +85,8 @@ export const products = [
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://rick-and-morty-ts.netlify.app/',
-		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty'
+		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty',
+		videoUrl: 'https://youtu.be/VP_qh7fVLu4'
 	},
 	{
 		id: '63691d3748944b433cc5ecda',
@@ -134,7 +133,8 @@ export const products = [
 		],
 		hasCredentials: true,
 		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql'
+		projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
+		videoUrl: 'https://youtu.be/dQNSk3s1eQk'
 	},
 	{
 		id: '63691d3748944b433cc5ecdb',
@@ -183,7 +183,8 @@ export const products = [
 		],
 		hasCredentials: true,
 		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona'
+		projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona',
+		videoUrl: ''
 	},
 	{
 		id: '63691d3748944b433cc5ecdd',
@@ -216,6 +217,7 @@ export const products = [
 		],
 		hasCredentials: true,
 		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/natours'
+		projectUrl: 'https://github.com/JavaScriptForEverything/natours',
+		videoUrl: ''
 	},
 ]

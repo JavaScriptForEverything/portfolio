@@ -31,6 +31,7 @@ type Props = {
 	hasCredentials: boolean,
 	websiteUrl: string,
 	projectUrl: string,
+	videoUrl: string
 }
 const Product = (props: Props) => {
 	const { 
@@ -45,6 +46,7 @@ const Product = (props: Props) => {
 		hasCredentials,
 		websiteUrl,
 		projectUrl,
+		videoUrl,
 	} = props
 
 	const theme = useTheme()
@@ -67,17 +69,15 @@ const Product = (props: Props) => {
 				</Box>
 
 				<CardContent>
-					{/* <Link href={`/project/${slug}`} style={{
-						color: theme.palette.primary.main,
-						textDecoration: 'none'
-					}}> */}
+					<Link href={videoUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>
 						<Typography variant='h5' color='primary' sx={{ 
 							width: 350,
 							whiteSpace: 'nowrap',
 							overflow: 'hidden',
 							textOverflow: 'ellipsis'
 						}}>{title}</Typography>
-					{/* </Link> */}
+					</Link>
+
 					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
 
 					<Typography variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
@@ -116,11 +116,14 @@ const Product = (props: Props) => {
 
 				<CardActions sx={{ mt: 2, }}>
 					<Button variant='outlined' disabled={!websiteUrl.startsWith('http')}>
-						<Link href={websiteUrl} target='_blank'  style={{ textDecoration: 'none', color: 'inherit' }}> Live Demo </Link>
+						<Link href={websiteUrl} target='_blank'  style={{ textDecoration: 'none', color: 'inherit' }}>Live</Link>
 					</Button>
 
+					<Button variant='contained' disabled={!videoUrl.startsWith('http')}>
+						<Link href={videoUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>Video Demo</Link>
+					</Button>
 					<Button variant='contained' disabled={!projectUrl.startsWith('http')}>
-						<Link href={projectUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}> Source Code </Link>
+						<Link href={projectUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>Code</Link>
 					</Button>
 				</CardActions>
 			</Card>
