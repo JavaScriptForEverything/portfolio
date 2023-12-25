@@ -85,7 +85,7 @@ const About = () => {
 							<Image src='/images/avatar.png' alt='aboutAvatar' layout='fill'/>
 						</Avatar>
 						<Typography color='primary' sx={{ mt: 1 }} component='h2'>Riajul Islam</Typography>
-						<Typography component='h1'>FullStack Developer: Next.js, TypeScript, GraphQL</Typography>
+						<Typography component='h1'>FullStack Developer: Next.js, TypeScript, Tailwind, RESTfull/GraphQL</Typography>
 
 						<Box>
 						{ myData.socialMediaItems.map(({ label, Icon, path }) => (

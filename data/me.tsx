@@ -27,16 +27,16 @@ export const webTechnologies = [
     description: 'Super set of JavaScript, it helps to create large application with minimum bugs'
   },
   {
-    title: 'GraphQL',
+    title: 'RESTfull / GraphQL',
     description: 'A alternative of RESTfull API, which overcome the limitation of REST API'
   },
   {
-    title: 'Redux',
+    title: 'Redux / Redux Toolkit',
     description: 'To manage State of Client-Side application (React|Angular|View)'
   },
   {
-    title: 'Material-UI',
-    description: 'A CSS Framework to design application'
+    title: 'Tailwind-CSS / Material-UI',
+    description: 'A CSS Framework to design application (Utility based, Component Based)'
   },
   {
     title: 'MongoDB(mongoose)',
