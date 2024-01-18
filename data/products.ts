@@ -49,6 +49,53 @@ export const products = [
 		videoUrl: 'https://youtu.be/pSLaFQgS7qQ'
 	},
 	{
+		id: '63691d3748344b433ce5ecdd',
+		slug: 'webrtc-video-calling-and-messaging-application',
+		coverPhoto: '/images/projects/webrtc/cover-photo.png',
+		images: [
+			'/images/projects/webrtc/01_home-page-desktop-view.png',
+			'/images/projects/webrtc/02_home-page-mobile-view-with-panel.png',
+			'/images/projects/webrtc/03_home-page-mobile-view-hide-panel.png.png',
+			'/images/projects/webrtc/04_caller-side-desktop-view.png',
+			'/images/projects/webrtc/05_callee-side-mobile-view.png',
+			'/images/projects/webrtc/06_reject-view.png',
+			'/images/projects/webrtc/07_reject-view.png',
+			'/images/projects/webrtc/08_accept-view.png',
+			'/images/projects/webrtc/09_accept-view.png',
+			'/images/projects/webrtc/10_typing_message.png',
+			'/images/projects/webrtc/11_messaging view.png',
+			'/images/projects/webrtc/12_screen-sharing.png',
+			'/images/projects/webrtc/13_screen-sharing.png',
+			'/images/projects/webrtc/14_recording.png',
+			'/images/projects/webrtc/15_play_recording_video.png',
+			'/images/projects/webrtc/16_error-handling-view.png',
+
+		],
+		title: 'Video Call + Messaging | Socket.io, WebRTC, Express, pug, Tailwind-css | Full-Stack',
+		subheader: 'Video-chat Application',
+		summary: `
+			It is a chatting application between user via WebRTC technology
+			socket.io used only as STUN server but data communication happend
+			via end-to-end browser (behind the NAT networking).
+			as websocket (socket.io) or AJAX (fetch or XMLHTTPRequest) is client-server
+			architracture while WebRTC is client-to-client architracture. so we can send any
+			large number data between users without any restriction or limitation and alsow support
+			data channel security, it also support both TCP and UDP protocol.
+			...
+		`,
+		technologies: [
+			'WebRTC',
+			'Socket.io',
+			'Node, Express',
+			'pug',
+			'Tailwind-css',
+		],
+		hasCredentials: false,
+		websiteUrl: 'https://webrtc-video-call-yt6x.onrender.com/',
+		projectUrl: 'https://github.com/JavaScriptForEverything/webrtc',
+		videoUrl: 'https://youtu.be/67tf9qnA1Bg'
+	},
+	{
 		id: '63691d3748944b433cc5ecdc',
 		slug: 'front-end-coding-challange',
 		coverPhoto: '/images/projects/rick-and-morty/cover-photo.png',
