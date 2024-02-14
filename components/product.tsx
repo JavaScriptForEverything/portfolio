@@ -58,7 +58,7 @@ const Product = (props: Props) => {
 
 	return (
 		<>
-			<Card>
+			<Card sx={{ display: 'flex', flexDirection: 'column' }}>
 				<Box sx={{ position: 'relative', height: { xs: 250, sm: 200 }, cursor: 'pointer' }}>
 					<Image 
 						src={coverPhoto}
@@ -68,7 +68,7 @@ const Product = (props: Props) => {
 					/>
 				</Box>
 
-				<CardContent>
+				<CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column', }}>
 					<Link href={videoUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>
 						<Typography variant='h5' color='primary' sx={{ 
 							width: 350,
@@ -80,9 +80,9 @@ const Product = (props: Props) => {
 
 					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
 
-					<Typography variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
+					<Typography sx={{ flex: 1 }} variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
 
-					<Typography sx={{ mt: 2, mb: 1 }} variant='h6'> Technologies: </Typography>
+					<Typography sx={{  mt: 2, mb: 1 }} variant='h6'> Technologies: </Typography>
 					<Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>
 						{technologies.map( technology => (
 							<Chip key={technology}
@@ -112,7 +112,6 @@ const Product = (props: Props) => {
 						</Box>
 					</Box>
 				</CardContent>
-				
 
 				<CardActions sx={{ mt: 2, }}>
 					<Button variant='outlined' disabled={!websiteUrl.startsWith('http')}>
@@ -127,6 +126,7 @@ const Product = (props: Props) => {
 					</Button>
 				</CardActions>
 			</Card>
+
 			<Dialog 
 				open={open}
 				onClose={closeHandler}

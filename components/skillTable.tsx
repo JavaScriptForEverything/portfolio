@@ -16,7 +16,7 @@ const rows = [
 	},
 	{
 		title: 'Fronted',
-		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io' ],
+		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io', 'WebRTC' ],
 		institute: 'Online School',
 		duration: '3 Years'
 	},
