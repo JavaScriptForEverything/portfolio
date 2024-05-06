@@ -1,5 +1,53 @@
 export const products = [
 	{
+		id: '63691e3748954b433be5ecdd',
+		slug: 'messenger-clone',
+		coverPhoto: '/images/projects/messenger/called-engaged.png',
+		images: [
+			'/images/projects/messenger/active-users.png',
+			'/images/projects/messenger/call-busy-dialog-on-engaged-user.png',
+			'/images/projects/messenger/called-engaged.png',
+			'/images/projects/messenger/callee-side-incomming-call.png',
+			'/images/projects/messenger/caller-or-callee-side-error-call.png',
+			'/images/projects/messenger/caller-side-outgoing-call.png',
+			'/images/projects/messenger/complete-large-file-shared.png',
+			'/images/projects/messenger/home-page-drag-and-drop-and-emoji-message-dialog.png',
+			'/images/projects/messenger/home-page.png',
+			'/images/projects/messenger/home-page-search-firends.png',
+			'/images/projects/messenger/home-page-search-message.png',
+			'/images/projects/messenger/home-page-search-people.png',
+			'/images/projects/messenger/image-upload-crop-and-image-slide.png',
+			'/images/projects/messenger/image-upload.png',
+			'/images/projects/messenger/incomming-outgoing-dialog.png',
+			'/images/projects/messenger/profile-page.png',
+			'/images/projects/messenger/start-larg-file-sharing.png',
+		],
+
+		title: 'Messenger Clone | Socket.io, WebRTC, Node, Express, MongoDB, pug, Tailwind-css | Full-Stack ',
+		subheader: 'Chating Application',
+		summary: `
+			It is a messaging application, which allows text, image, audio and files to shre with others.
+			we can handle up to 2 GB files securiy via WebRTC DataChannel (which is peer-to-peer) communication.
+			and by the help of WebRTC we can make audio or video calls, and when any users engaged with call,
+			and 3rd person try to call engaged, then 3rd caller person got callee busy notification back.
+			beside it handle file cropping, file reszing, cookie based authentication via accessToken and refreshToken,
+			Streaming files (audio/images) from server (so that server not crush on large file) and 
+			so on .. (more details on readme.md file)
+		`,
+		technologies: [
+			'Node, Express', 'pug',
+			'MongoDB',
+			'Tailwind-css',
+			'Socket.io',
+			'WebRTC',
+			'Service-Worker',
+		],
+		hasCredentials: false,
+		websiteUrl: 'https://messenger-1-73xb.onrender.com/',
+		projectUrl: 'https://github.com/JavaScriptForEverything/messenger',
+		videoUrl: 'https://youtu.be/kSjMMZKbKgQ'
+	},
+	{
 		id: '63691d3748944b433ce5ecdd',
 		slug: 'twitter-clone',
 		coverPhoto: '/images/projects/twitter-clone/cover-photo.png',
@@ -231,40 +279,6 @@ export const products = [
 		hasCredentials: true,
 		websiteUrl: '',
 		projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona',
-		videoUrl: ''
-	},
-	{
-		id: '63691d3748944b433cc5ecdd',
-		slug: 'natours-api',
-		coverPhoto: '/images/projects/natours/cover-photo.jpg',
-		images: [
-		 	'/images/projects/natours/cover-photo.jpg',
-		 	'/images/projects/natours/screenshot-2.jpg',
-		 	'/images/projects/natours/screenshot-3.jpg',
-		 	'/images/projects/natours/screenshot-4.jpg',
-		],
-		title: 'Natours API | By Jonos',
-		subheader: 'Node.js API',
-		summary: `
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-			Ipsa at perferendis assumenda non. Accusantium, aliquam 
-			eaque earum commodi non voluptas consequatur 
-			distinctio, reiciendis architecto, illum perferendis 
-			incidunt quisquam ab dignissimos?
-		`,
-		technologies: [
-			'Express.js',
-			'Node.js',
-			'REST API',
-			'MongoDB',
-			'React',
-			'Redux',
-			'Stripe ',
-			'MERN Stack',
-		],
-		hasCredentials: true,
-		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/natours',
 		videoUrl: ''
 	},
 ]
