@@ -42,6 +42,14 @@ export const webTechnologies = [
     title: 'MongoDB(mongoose)',
     description: 'Schema based Database Driver, to store data into MongoDB Database.'
   },
+  {
+    title: 'WebSocket(socket.io)',
+    description: 'for instant messaging: to apply chatting features'
+  },
+  {
+    title: 'WebRTC',
+    description: 'to create peer-to-peer secure connection: messaging, audio call, video call, screenSharing, Large file sharing (up to 2 GB)'
+  },
 ]
 
 export const mobileTechnologies = [
