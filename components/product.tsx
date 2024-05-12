@@ -22,6 +22,7 @@ import CloseIcon from '@mui/icons-material/Close'
 type Props = {
 	id?: string,
 	slug: string,
+	lists?: string[]
 	technologies: string[]
 	coverPhoto: string,
 	images: string[],
@@ -37,6 +38,7 @@ const Product = (props: Props) => {
 	const { 
 		id = '',
 		slug,
+		lists, 
 		technologies, 
 		coverPhoto,
 		images,
@@ -79,16 +81,28 @@ const Product = (props: Props) => {
 					</Link>
 
 					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
+					<Typography variant='body1' color='textSecondary' align='justify' paragraph> {summary} </Typography>
 
-					<Typography sx={{ flex: 1 }} variant='body1' color='textSecondary' align='justify'> {summary} </Typography>
+					{lists && (
+						<Typography sx={{  mt: -2, mb: 2, }} variant='body2' color='textSecondary'>
+							<ul style={{ 
+								paddingBlock: '8px',
+								listStyleType: 'square', 
+								backgroundColor: '#d5e5fb44'
+								}}>
+								{lists.map( list => <li key={list}>{list}</li>)}
+							</ul>
+						</Typography>
+					)}
 
-					<Typography sx={{  mt: 2, mb: 1 }} variant='h6'> Technologies: </Typography>
+
+					<Typography sx={{  mt: 'auto', mb: 1 }} variant='h6'> Technologies: </Typography>
+
 					<Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>
 						{technologies.map( technology => (
 							<Chip key={technology}
 								label={technology}
 								variant='outlined'
-								size='small'
 							/>
 						))}
 					</Box>

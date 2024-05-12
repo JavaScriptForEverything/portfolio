@@ -10,7 +10,7 @@ const header = ['Tranning Title', 'Topic', institute, 'Duration' ]
 const rows = [
 	{
 		title: 'Backend',
-		topics: [ 'Node.js', 'Express.js', 'Pug (templete)', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
+		topics: [ 'Node.js', 'Express.js', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
 		institute: 'Online School',
 		duration: '2 Years'
 	},

@@ -23,24 +23,29 @@ export const products = [
 			'/images/projects/messenger/start-larg-file-sharing.png',
 		],
 
-		title: 'Messenger Clone | Socket.io, WebRTC, Node, Express, MongoDB, pug, Tailwind-css | Full-Stack ',
-		subheader: 'Chating Application',
+		title: 'Messenger Clone | Full-Stack ( Node.js, Socket.IO, WebRTC )',
+		subheader: 'Chatting | Audio or Video Calling | File Sharing',
 		summary: `
-			It is a messaging application, which allows text, image, audio and files to shre with others.
-			we can handle up to 2 GB files securiy via WebRTC DataChannel (which is peer-to-peer) communication.
-			and by the help of WebRTC we can make audio or video calls, and when any users engaged with call,
-			and 3rd person try to call engaged, then 3rd caller person got callee busy notification back.
-			beside it handle file cropping, file reszing, cookie based authentication via accessToken and refreshToken,
-			Streaming files (audio/images) from server (so that server not crush on large file) and 
-			so on .. (more details on readme.md file)
+			It is a chatting application, which allows realtime text, emoji, image, audio messages.
+			which also allows to share large files (upto 2GB) via secure tunnel via webRTC dataChannel (peer-to-peer connection).
 		`,
+		lists: [
+			'Text, Emoji, Image and Audio messaging',
+			'Follow or Unfollow friends',
+			'Audio and Video Calling',
+			'Large File Sharing via secure tunnel',
+			'Image Image Croping and Resizing',
+			'Searching Friends, Users and Messages',
+			'Cookie Based Authenication',
+		],
 		technologies: [
-			'Node, Express', 'pug',
+			'Node.js', 
+			'WebRTC',
+			'Socket.io',
 			'MongoDB',
 			'Tailwind-css',
-			'Socket.io',
-			'WebRTC',
 			'Service-Worker',
+			'pug',
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://messenger-1-73xb.onrender.com/',
@@ -68,28 +73,27 @@ export const products = [
 			'/images/projects/twitter-clone/sing-chat.png',
 			'/images/projects/twitter-clone/tweet-details-page.png',
 		],
-		title: 'Twitter Clone | Node, Express, MongoDB, pug, socket.io, Tailwind-css | Full-Stack ',
-		subheader: 'Social-Media Application',
+		title: 'Twitter Clone | Full-Stack ( Node.js, Socket.IO)',
+		subheader: 'Social-Media Application | Chatting | Post & Comments',
 		summary: `
-			It is a Social media app like twitter which allows
-		  Follow and unfollow other users,
-		  Create tweet, like/unlike tweet, and also retweet,
-		  Upload profile photo, Cover photo.
-		  Real Time chatting: Group chat, private chat,
-		  To create Group chat search users by name and shows selected users list before create chat
-		  in chat page will show all users on that chat room, in top with user avatar
-		  Users will see typing indicator of other users while chating.
-		  Hydration Rendering : ServerSide rendering + ClientSide rendering,
-		  API features : pagination, sorting, filtering, searching,
-		  Image upload : crop image, image with private route,
-		  Animation/Transition: scrolling animation, dialog transition, ...,
+		It is a Social media app like twitter which allows to create tweet, commnents on others tweet, 
+		like/unlike tweets. & follow and unfollow friends and upload photos and also has private and group chats with notifications.
 		`,
+		lists: [
+			'Tweets, retweets and comments.',
+			'Add comments, like, unlike and deleting (self comments)',
+			'Private Chats',
+			'Group Chats',
+			'Image Image Croping and Resizing',
+			'Searching Friends, Users and Messages',
+			'Session Based Authenication',
+		],
 		technologies: [
-			'Node, Express',
-			'MongoDB',
-			'pug',
-			'Tailwind-css',
+			'Node.js',
 			'Socket.io',
+			'MongoDB',
+			'Tailwind-css',
+			'pug',
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://twitter-clone-06nd.onrender.com/',
