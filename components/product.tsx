@@ -73,15 +73,20 @@ const Product = (props: Props) => {
 				<CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column', }}>
 					<Link href={videoUrl} target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>
 						<Typography variant='h5' color='primary' sx={{ 
-							width: 350,
+							width: 300,
 							whiteSpace: 'nowrap',
 							overflow: 'hidden',
 							textOverflow: 'ellipsis'
 						}}>{title}</Typography>
 					</Link>
 
-					<Typography variant='body2' color='textSecondary' paragraph >{subheader}</Typography>
-					<Typography variant='body1' color='textSecondary' align='justify' paragraph> {summary} </Typography>
+					<Typography variant='body2' color='textSecondary' paragraph sx={{ 
+							width: 300,
+							whiteSpace: 'nowrap',
+							overflow: 'hidden',
+							textOverflow: 'ellipsis'
+						}} >{subheader}</Typography>
+					<Typography variant='body1' color='textSecondary' paragraph align='justify' > {summary} </Typography>
 
 					{lists && (
 						<Typography sx={{  mt: -2, mb: 2, }} variant='body2' color='textSecondary'>

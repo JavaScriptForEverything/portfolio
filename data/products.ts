@@ -23,7 +23,7 @@ export const products = [
 			'/images/projects/messenger/start-larg-file-sharing.png',
 		],
 
-		title: 'Messenger Clone | Full-Stack ( Node.js, Socket.IO, WebRTC )',
+		title: 'Messenger | Full-Stack ( Node.js, Socket.IO, WebRTC )',
 		subheader: 'Chatting | Audio or Video Calling | File Sharing',
 		summary: `
 			It is a chatting application, which allows realtime text, emoji, image, audio messages.
