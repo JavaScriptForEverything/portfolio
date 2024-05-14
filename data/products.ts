@@ -28,6 +28,7 @@ export const products = [
 		summary: `
 			It is a chatting application, which allows realtime text, emoji, image, audio messages.
 			which also allows to share large files (upto 2GB) via secure tunnel via webRTC dataChannel (peer-to-peer connection).
+			Shows uploading progress-bar in caller-side and downloading percentage in callee-side.	
 		`,
 		lists: [
 			'Text, Emoji, Image and Audio messaging',
@@ -50,7 +51,7 @@ export const products = [
 		hasCredentials: false,
 		websiteUrl: 'https://messenger-1-73xb.onrender.com/',
 		projectUrl: 'https://github.com/JavaScriptForEverything/messenger',
-		videoUrl: 'https://youtu.be/kSjMMZKbKgQ'
+		videoUrl: 'https://youtu.be/uQtPaz1XYVE'
 	},
 	{
 		id: '63691d3748944b433ce5ecdd',
