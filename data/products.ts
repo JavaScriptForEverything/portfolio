@@ -2,7 +2,7 @@ export const products = [
 	{
 		id: '63691e3748954b433be5ecdd',
 		slug: 'messenger-clone',
-		coverPhoto: '/images/projects/messenger/called-engaged.png',
+		coverPhoto: '/images/projects/messenger/file-upload-progress-bar.png',
 		images: [
 			'/images/projects/messenger/active-users.png',
 			'/images/projects/messenger/call-busy-dialog-on-engaged-user.png',
