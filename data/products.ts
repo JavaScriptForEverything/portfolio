@@ -31,13 +31,14 @@ export const products = [
 			Shows uploading progress-bar in caller-side and downloading percentage in callee-side.	
 		`,
 		lists: [
-			'Text, Emoji, Image and Audio messaging',
-			'Follow or Unfollow friends',
-			'Audio and Video Calling',
-			'Large File Sharing via secure tunnel',
-			'Image Image Croping and Resizing',
-			'Searching Friends, Users and Messages',
-			'Cookie Based Authenication',
+			'Messaging: Text, Emoji, Image and Audio',
+			'Calling: Audio/Video Calling',
+			'File Sharing: Small file upload, and Large File Sharing via WebRTC data-channel',
+			'Resize Image: Image Croping and Resizing before upload, and Trimming after',
+			'Friends: Follow or Unfollow friends',
+			'Search: Search Friends, Users or Messages (text, image, audio)',
+			'Cookie Based Authenication', 
+			'...', 
 		],
 		technologies: [
 			'Node.js', 
@@ -83,7 +84,7 @@ export const products = [
 		lists: [
 			'Tweets, retweets and comments.',
 			'Add comments, like, unlike and deleting (self comments)',
-			'Private Chats',
+			'Private Chats / Group Chat',
 			'Group Chats',
 			'Image Image Croping and Resizing',
 			'Searching Friends, Users and Messages',

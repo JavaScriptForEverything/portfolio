@@ -11,19 +11,19 @@ const rows = [
 	{
 		title: 'Backend',
 		topics: [ 'Node.js', 'Express.js', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
-		institute: 'Bit Encrypt It',
+		institute: 'Bit Encrypt IT',
 		duration: '2 Years'
 	},
 	{
 		title: 'Fronted',
 		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io', 'WebRTC', 'Pug', 'Webpack' ],
-		institute: 'Limon Hive | Bit Encrypt It',
+		institute: 'Limon Hive | Bit Encrypt IT',
 		duration: '1 Years'
 	},
 	{
 		title: 'Tools',
 		topics: [ 'Networking (CCNA)', 'Linux (Ubuntu, CentOS)', 'Virtualization', 'Git', 'Docker', 'Kubernetes', 'NginX' ],
-		institute: 'Ayman Group | Bit Encrypt It',
+		institute: 'Ayman Group | Bit Encrypt IT',
 		duration: '1 Years'
 	},
 ]
