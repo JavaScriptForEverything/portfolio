@@ -82,12 +82,12 @@ export const developmentTools = [
     description: 'To test application to any machine and also deploy project'
   },
   {
-    title: 'Linux OS',
-    description: 'Linux OS: similer as English Language, no mater where you go, you have to know a little bit.'
+    title: 'Kubernetes',
+    description: '(Orchestration Management Tools) to manage containers'
   },
   {
-    title: 'SSH',
-    description: 'To communicate with any Computer through internet, specially with Server'
+    title: 'Linux OS',
+    description: 'Linux OS: similer as English Language, no mater where you go, you have to know a little bit.'
   },
   {
     title: 'VirtualBox',

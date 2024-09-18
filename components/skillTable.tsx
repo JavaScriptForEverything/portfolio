@@ -11,20 +11,20 @@ const rows = [
 	{
 		title: 'Backend',
 		topics: [ 'Node.js', 'Express.js', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
-		institute: 'Online School',
+		institute: 'Bit Encrypt It',
 		duration: '2 Years'
 	},
 	{
 		title: 'Fronted',
-		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io', 'WebRTC' ],
-		institute: 'Online School',
-		duration: '3 Years'
+		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io', 'WebRTC', 'Pug', 'Webpack' ],
+		institute: 'Limon Hive | Bit Encrypt It',
+		duration: '1 Years'
 	},
 	{
 		title: 'Tools',
-		topics: [ 'Webpack', 'pug', 'Git', 'Docker', 'Linux (Ubuntu, CentOS)', 'SSH', 'Virtualization', 'Networking (CCNA)' ],
-		institute: 'Online School',
-		duration: '3 Years'
+		topics: [ 'Networking (CCNA)', 'Linux (Ubuntu, CentOS)', 'Virtualization', 'Git', 'Docker', 'Kubernetes', 'NginX' ],
+		institute: 'Ayman Group | Bit Encrypt It',
+		duration: '1 Years'
 	},
 ]
 
