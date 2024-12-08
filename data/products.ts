@@ -172,6 +172,14 @@ export const products = [
 			it has some extra UI features, like QR code capta payment methods with Stripe (same API)
 			...
 		`,
+		lists: [
+			'cross-platform mobile app for both Android and iOS',
+			'it uses the same API of "Shopping Showroom" web app.',
+			'QR code capta payment methods with Stripe',
+			'Web App and Mobile App with same API',
+			'Image Image Croping and Resizing',
+			'Searching Friends, Users and Messages',
+		],
 		technologies: [
 			'React Native',
 			'Node API',
