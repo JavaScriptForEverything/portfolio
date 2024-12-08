@@ -11,7 +11,7 @@ const rows = [
 	{
 		title: 'Backend',
 		topics: [ 'Node.js', 'Express.js', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
-		institute: 'Bit Encrypt IT',
+		institute: 'Ayman Group | Bit Encrypt IT',
 		duration: '2 Years'
 	},
 	{

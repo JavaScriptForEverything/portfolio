@@ -11,7 +11,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
 
 	return (
-		<main>
+		<main suppressHydrationWarning>
 		<CssBaseline />
 
 			<Header />
