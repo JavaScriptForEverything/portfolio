@@ -10,20 +10,25 @@ const header = ['Tranning Title', 'Topic', institute, 'Duration' ]
 const rows = [
 	{
 		title: 'Backend',
-		topics: [ 'Node.js', 'Express.js', 'MongoDB (mongoose)', 'RESTfull / GraphQL' ],
-		institute: 'Ayman Group | Bit Encrypt IT',
-		duration: '2 Years'
+		topics: [ 'Node.js / Express', 'TypeScript', 'Express.js', 'MongoDB/MySQL', 'RESTfull / GraphQL', 'Socket.io' ],
+		institute: 'NGen IT | Bit Encrypt IT | Ayman Group',
+		duration: '3 Years'
 	},
 	{
 		title: 'Fronted',
-		topics: [ 'React', 'Redux', 'Tailwind-css', 'Material-UI', 'Next.js', 'TypeScript', 'Socket.io', 'WebRTC', 'Pug', 'Webpack' ],
-		institute: 'Limon Hive | Bit Encrypt IT',
-		duration: '1 Years'
+		topics: [ 'React', 'Next.js', 'Redux', 'Tailwind | Material-UI', 'TypeScript', 'Socket.io', 'WebRTC'],
+		institute: 'NGen IT | Bit Encrypt IT | Limon Hive',
+		duration: '2 Years'
 	},
 	{
 		title: 'Tools',
-		topics: [ 'Networking (CCNA)', 'Linux (Ubuntu, CentOS)', 'Virtualization', 'Git', 'Docker', 'Kubernetes', 'NginX' ],
-		institute: 'Ayman Group | Bit Encrypt IT',
+		topics: [ 
+			'Git', 'Docker', 'Kubernetes', 'NginX',
+			'Networking (CCNA)', 
+			'Linux (Ubuntu, CentOS)', 
+			'Virtualization', 
+		],
+		institute: 'NGen IT | Bit Encrypt IT',
 		duration: '1 Years'
 	},
 ]

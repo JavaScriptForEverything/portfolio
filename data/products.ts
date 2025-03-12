@@ -1,5 +1,105 @@
 export const products = [
 	{
+		id: '67ce6c2750c7df05978239a4',
+		slug: 'nmart',
+		coverPhoto: '/images/projects/nmart/home.png',
+		images: [
+			'/images/projects/nmart/home.png',
+			'/images/projects/nmart/2.png',
+			'/images/projects/nmart/3.png',
+			'/images/projects/nmart/4.png',
+			'/images/projects/nmart/5.png',
+			'/images/projects/nmart/6.png',
+			'/images/projects/nmart/7.png',
+		],
+
+		title: 'N-Mert',
+		subheader: 'Ecommers application',
+		summary: `
+			This project is a modern web application featuring secure login 
+			(user/password, Google, Facebook), JWT-based authentication, and role-based 
+			admin panels. It supports real-time notifications, email/OTP verification, 
+			and multiple payment options like cash-on-delivery, Stripe, and SSLCommerz. 
+			Efficient database backup/restore, large file handling with streaming, 
+			and advanced search (price, rating, date) ensure a seamless user experience. 
+			A robust, scalable solution showcasing expertise in full-stack development and 
+			secure systems.
+		`,
+		lists: [
+			'Login: user & pass, Google & Facebook login',
+			'Authentication: Cookie & JWT token based serverless',
+			'Panel: Admin panel for admin, super-admin',
+			'Notifications: send notifications & email and OTP',
+			'Payment: Cash-on-delivery, Stripe & SSLCommerz',
+			'Database: One click database backup and restore',
+			'File Uploading: Large File handling with file streaming',
+			'Search: by price, rating, date, ...',
+			'...', 
+		],
+		technologies: [
+			'Node.js', 
+			'TypeScript',
+			'MongoDB',
+			'Next.js',
+			'React.js',
+			'Tailwind-css',
+			'Docker',
+			'Kubernetes',
+		],
+		hasCredentials: false,
+		websiteUrl: '',
+		projectUrl: '',
+		videoUrl: ''
+	},
+	{
+		id: '67ce6c2750c7df05978239a6',
+		slug: 'readyhow',
+		coverPhoto: '/images/projects/readyHow/home.png',
+		images: [
+			'/images/projects/readyHow/home.png',
+			'/images/projects/readyHow/2.png',
+			'/images/projects/readyHow/3.png',
+			'/images/projects/readyHow/4.png',
+		],
+
+		title: 'ReadyHow',
+		subheader: 'Multi-Vendor Ecommers application',
+		summary: `
+			This multi-vendor application features secure login (user/password, Google, Facebook) 
+			and JWT-based authentication for vendors, admins, and customers. It includes 
+			role-based panels for vendors and admins, real-time notifications, 
+			and email/OTP verification. Payment options like cash-on-delivery, 
+			and SSLCommerz are integrated for seamless transactions.  large file handling with 
+			streaming, and advanced search (price, rating, date) for a smooth user experience. 
+			A scalable, robust solution for modern multi-vendor platforms. 
+		`,
+		lists: [
+			'Login: user & pass, Google & Facebook login',
+			'Authentication: Cookie & JWT token based serverless',
+			'Panel: admin panel,  vendor panel, user profile',
+			'Notifications: send notifications & email and OTP',
+			'Payment: Cash-on-delivery & SSLCommerz',
+			'File Uploading: Large File handling with file streaming',
+			'Search: by price, rating, date, ...',
+			'...', 
+		],
+		technologies: [
+			'Node.js', 
+			'TypeScript',
+			'MongoDB',
+			'Next.js',
+			'React.js',
+			'Tailwind-css',
+			'Socket.io',
+			'Docker',
+			'Kubernetes',
+		],
+		hasCredentials: false,
+		websiteUrl: 'https://readyhow.com/',
+		projectUrl: '',
+		videoUrl: ''
+	},
+	{
 		id: '63691e3748954b433be5ecdd',
 		slug: 'messenger-clone',
 		coverPhoto: '/images/projects/messenger/file-upload-progress-bar.png',
@@ -51,7 +151,8 @@ export const products = [
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://messenger-1-73xb.onrender.com/',
-		projectUrl: 'https://github.com/JavaScriptForEverything/messenger',
+		// projectUrl: 'https://github.com/JavaScriptForEverything/messenger',
+		projectUrl: '',
 		videoUrl: 'https://youtu.be/uQtPaz1XYVE'
 	},
 	{
@@ -99,7 +200,8 @@ export const products = [
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://twitter-clone-06nd.onrender.com/',
-		projectUrl: 'https://github.com/JavaScriptForEverything/twitter-clone',
+		// projectUrl: 'https://github.com/JavaScriptForEverything/twitter-clone',
+		projectUrl: '',
 		videoUrl: 'https://youtu.be/pSLaFQgS7qQ'
 	},
 	// {

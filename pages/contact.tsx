@@ -50,7 +50,7 @@ const Contact = () => {
 
 				<Box sx={{ mt: 4, ...center }}>
 					<Typography variant='h6'> Contact Us </Typography>
-					<Typography variant='body2'>Anyone can contact up via bellow methods</Typography>
+					<Typography variant='body2'>Anyone can contact me via bellow methods</Typography>
 					{/* <Divider sx={{ width: '100%', mt: 2 }} /> */}
 				</Box>
 

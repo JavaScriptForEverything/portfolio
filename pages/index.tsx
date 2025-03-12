@@ -51,17 +51,20 @@ const HomePage = () => {
 					mt: { xs: 2, sm: 0 }
 				}}>
 
+{/* 
+
+
+	
+
+*/}
+
 					<Grid item xs={12} sm={6}>
-						<Typography variant='h4' component='h2'>
-							Hi there, I&apos;m 
-							<Typography component='span' variant='h4' color='primary' sx={{ fontFamily: 'custo-regular', pl: 1 }} > 
-								Riajul Islam 
-							</Typography>
+						<Typography component='span' variant='h4' color='primary' sx={{ fontFamily: 'custo-regular', }} >Riajul Islam </Typography>
+
+						<Typography color='textSecondary' paragraph variant='body2' component='h1' sx={{ mt: 1, mb: 2 }}>
+							Full-Stack Developer | Node.js | Next.js | TypeScript | DevOps
 						</Typography>
 
-						<Typography color='textSecondary' paragraph variant='body2' component='h1'>
-							I&apos;m a Full Stack Web Developer in Dhaka, Bangladesh.	
-						</Typography>
 
 						<Box sx={{ display: 'flex', gap: 1, justifyContent: { xs: 'center', md: 'left' }}}>
 							{navItems.filter( item => item.path !== '/').map(({ label, icon, path }) => (
@@ -77,31 +80,17 @@ const HomePage = () => {
 
 						<Typography component='section' color='textSecondary' align='justify' sx={{ mt: 4 }} >
 							<Typography paragraph variant='body2'>
-								I&apos;ve been designing websites for businesses since 2018 and I&apos;m always up to a challenge! 
-								Recently I participated in a frontend development programming contest in 2022 and won 3rd prize in 
-								the contest, which has been shared on my <Link 
-									href='https://www.linkedin.com/in/javascriptforeverything/overlay/1635514732753/single-media-viewer/?profileId=ACoAADXLBKcBlmcS6KAyc5BTL9urWMAKZB1pJj4'
-									target='_blank'
-									passHref
-									style={{ textDecoration: 'none' }}
-								> <MuiLink component='span'> linkedIn profile.</MuiLink>
-								</Link>
-							</Typography>
-
-							<Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-							<Typography paragraph variant='body2'>
-								I&apos;m comfortable working with React applications. 
-								<em><strong>React</strong></em>, Redux and <em><strong>Next.js</strong></em> in frontend and Node, 
-								Express, and MongoDB in the backend. CSS framework such as <em><strong>Tailwind-css</strong></em> and <em><strong>Material-UI or MUI</strong></em> and deploying 
-								applications with docker.
+								I&apos;m a passionate <strong>Full-Stack Web Developer</strong>,
+								with over <strong>5+ years of experience</strong>,
+								in designing and developing user-friendly, scalable, and feature-rich web applications. I thrive on solving complex problems and turning ideas into reality through clean, efficient code.
 							</Typography>
 
 							<Typography paragraph variant='body2'>
-								I would love to put my skills to work to create a beautiful and user-friendly website for you.
+								I specialize in <strong> React, Node.js, and modern web technologies </strong>, 
+								and I&apos;m always eager to take on new challenges. Whether it&apos;s building a 
+								robust backend, crafting a sleek frontend, or deploying applications with <strong>Docker</strong> and <strong>Kubernetes</strong>, I&apos;m your go-to developer!
 							</Typography>
-							</Box>
 						</Typography>
-
 					</Grid>
 
 					<Grid item xs={12} sm={6} >
