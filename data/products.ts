@@ -333,102 +333,102 @@ export const products = [
 		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty',
 		videoUrl: 'https://youtu.be/VP_qh7fVLu4'
 	},
-	{
-		id: '63691d3748944b433cc5ecda',
-		slug: 'shopping-showroom',
-		coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
-		images: [
-		 	'/images/projects/shop-next-ts-graphql/cover-photo.png',
-			'/images/projects/shop-next-ts-graphql/carousel.png',
-			'/images/projects/shop-next-ts-graphql/images-1.png',
-			'/images/projects/shop-next-ts-graphql/images-2.png',
-			'/images/projects/shop-next-ts-graphql/images-3.png',
-			'/images/projects/shop-next-ts-graphql/images-4.png',
-			'/images/projects/shop-next-ts-graphql/images-5.png',
-			'/images/projects/shop-next-ts-graphql/images-6.png',
-			'/images/projects/shop-next-ts-graphql/images-7.png',
-			'/images/projects/shop-next-ts-graphql/images-8.png',
-			'/images/projects/shop-next-ts-graphql/images-9.png',
-			'/images/projects/shop-next-ts-graphql/images-10.png',
-			'/images/projects/shop-next-ts-graphql/images-11.png',
-			'/images/projects/shop-next-ts-graphql/images-12.png',
-			'/images/projects/shop-next-ts-graphql/images-13.png',
-			'/images/projects/shop-next-ts-graphql/images-14.png',
-			'/images/projects/shop-next-ts-graphql/images-15.png',
-		],
-		title: 'Shopping Showroom',
-		subheader: 'E-Commerce',
-		summary: `
-			Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
-			only difference is that here used TypeScript instead of JavaScript, and
-			GraphQL instead of REST API. It has user dashboard, authentication via
-			JWT web token, forget password with email validation, and payment via Stripe.
-			beside it is fully responsive and user-friendly UI, to design used the Material-UI
-			framework for UX/UI design concept in mind.
-		`,
-		technologies: [
-			'Next.js',
-			'TypeScript',
-			'GraphQL',
-			'Redux',
-			'Serverless API',
-			'MongoDB',
-			'Stripe ',
-			'Nodemailer',
-		],
-		hasCredentials: true,
-		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
-		videoUrl: 'https://youtu.be/dQNSk3s1eQk'
-	},
-	{
-		id: '63691d3748944b433cc5ecdb',
-		slug: 'next-amazona-shopping-app',
-		coverPhoto: '/images/projects/next-amazona/cover-photo.png',
-		images: [
-		 	'/images/projects/next-amazona/cover-photo.png',
-		 	'/images/projects/next-amazona/images-1.png',
-		 	'/images/projects/next-amazona/images-2.png',
-		 	'/images/projects/next-amazona/images-3.png',
-		 	'/images/projects/next-amazona/images-4.png',
-		 	'/images/projects/next-amazona/images-5.png',
-		 	'/images/projects/next-amazona/images-6.png',
-		 	'/images/projects/next-amazona/images-7.png',
-		 	'/images/projects/next-amazona/images-8.png',
-		 	'/images/projects/next-amazona/images-9.png',
-		 	'/images/projects/next-amazona/images-10.png',
-		 	'/images/projects/next-amazona/images-11.png',
-		 	'/images/projects/next-amazona/images-12.png',
-		 	'/images/projects/next-amazona/images-13.png',
-		 	'/images/projects/next-amazona/images-14.png',
-		 	'/images/projects/next-amazona/images-15.png',
-		 	'/images/projects/next-amazona/images-16.png',
-		 	'/images/projects/next-amazona/images-17.png',
-		 	'/images/projects/next-amazona/images-18.png',
-		 	'/images/projects/next-amazona/images-19.png',
-		 	'/images/projects/next-amazona/images-20.png',
-		],
-		title: 'Next Amazona',
-		subheader: 'E-Commerce',
-		summary: `
-			This is my first server side rendering web application, which is fully 
-			functional and user-friendly UI. The technologies used in this project are
-			JavaScript, REST API, Material-UI, Redux-Toolkit, Git...
-			It has user dashboard, authentication via JWT web token, forget password with email 
-			validation, and payment via Stripe.  beside it is fully responsive and user-friendly UI, 
-			to design used the Material-UI framework for UX/UI design concept in mind.
-		`,
-		technologies: [
-			'Next.js',
-			'REST API',
-			'Redux',
-			'Serverless API',
-			'MongoDB',
-			'Stripe ',
-		],
-		hasCredentials: true,
-		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona',
-		videoUrl: ''
-	},
+	// {
+	// 	id: '63691d3748944b433cc5ecda',
+	// 	slug: 'shopping-showroom',
+	// 	coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
+	// 	images: [
+	// 	 	'/images/projects/shop-next-ts-graphql/cover-photo.png',
+	// 		'/images/projects/shop-next-ts-graphql/carousel.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-1.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-2.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-3.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-4.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-5.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-6.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-7.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-8.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-9.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-10.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-11.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-12.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-13.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-14.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-15.png',
+	// 	],
+	// 	title: 'Shopping Showroom',
+	// 	subheader: 'E-Commerce',
+	// 	summary: `
+	// 		Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
+	// 		only difference is that here used TypeScript instead of JavaScript, and
+	// 		GraphQL instead of REST API. It has user dashboard, authentication via
+	// 		JWT web token, forget password with email validation, and payment via Stripe.
+	// 		beside it is fully responsive and user-friendly UI, to design used the Material-UI
+	// 		framework for UX/UI design concept in mind.
+	// 	`,
+	// 	technologies: [
+	// 		'Next.js',
+	// 		'TypeScript',
+	// 		'GraphQL',
+	// 		'Redux',
+	// 		'Serverless API',
+	// 		'MongoDB',
+	// 		'Stripe ',
+	// 		'Nodemailer',
+	// 	],
+	// 	hasCredentials: true,
+	// 	websiteUrl: '',
+	// 	projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
+	// 	videoUrl: 'https://youtu.be/dQNSk3s1eQk'
+	// },
+	// {
+	// 	id: '63691d3748944b433cc5ecdb',
+	// 	slug: 'next-amazona-shopping-app',
+	// 	coverPhoto: '/images/projects/next-amazona/cover-photo.png',
+	// 	images: [
+	// 	 	'/images/projects/next-amazona/cover-photo.png',
+	// 	 	'/images/projects/next-amazona/images-1.png',
+	// 	 	'/images/projects/next-amazona/images-2.png',
+	// 	 	'/images/projects/next-amazona/images-3.png',
+	// 	 	'/images/projects/next-amazona/images-4.png',
+	// 	 	'/images/projects/next-amazona/images-5.png',
+	// 	 	'/images/projects/next-amazona/images-6.png',
+	// 	 	'/images/projects/next-amazona/images-7.png',
+	// 	 	'/images/projects/next-amazona/images-8.png',
+	// 	 	'/images/projects/next-amazona/images-9.png',
+	// 	 	'/images/projects/next-amazona/images-10.png',
+	// 	 	'/images/projects/next-amazona/images-11.png',
+	// 	 	'/images/projects/next-amazona/images-12.png',
+	// 	 	'/images/projects/next-amazona/images-13.png',
+	// 	 	'/images/projects/next-amazona/images-14.png',
+	// 	 	'/images/projects/next-amazona/images-15.png',
+	// 	 	'/images/projects/next-amazona/images-16.png',
+	// 	 	'/images/projects/next-amazona/images-17.png',
+	// 	 	'/images/projects/next-amazona/images-18.png',
+	// 	 	'/images/projects/next-amazona/images-19.png',
+	// 	 	'/images/projects/next-amazona/images-20.png',
+	// 	],
+	// 	title: 'Next Amazona',
+	// 	subheader: 'E-Commerce',
+	// 	summary: `
+	// 		This is my first server side rendering web application, which is fully 
+	// 		functional and user-friendly UI. The technologies used in this project are
+	// 		JavaScript, REST API, Material-UI, Redux-Toolkit, Git...
+	// 		It has user dashboard, authentication via JWT web token, forget password with email 
+	// 		validation, and payment via Stripe.  beside it is fully responsive and user-friendly UI, 
+	// 		to design used the Material-UI framework for UX/UI design concept in mind.
+	// 	`,
+	// 	technologies: [
+	// 		'Next.js',
+	// 		'REST API',
+	// 		'Redux',
+	// 		'Serverless API',
+	// 		'MongoDB',
+	// 		'Stripe ',
+	// 	],
+	// 	hasCredentials: true,
+	// 	websiteUrl: '',
+	// 	projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona',
+	// 	videoUrl: ''
+	// },
 ]
