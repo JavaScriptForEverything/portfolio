@@ -89,7 +89,7 @@ const Product = (props: Props) => {
 					<Typography variant='body1' color='textSecondary' paragraph align='justify' > {summary} </Typography>
 
 					{lists && (
-						<Typography sx={{  mt: -2, mb: 2, }} variant='body2' color='textSecondary'>
+						<Typography component='div' sx={{  mt: -2, mb: 2, }} variant='body2' color='textSecondary'>
 							<ul style={{ 
 								paddingBlock: '8px',
 								listStyleType: 'square', 

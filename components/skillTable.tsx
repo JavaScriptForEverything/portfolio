@@ -11,13 +11,13 @@ const rows = [
 	{
 		title: 'Backend',
 		topics: [ 'Node.js / Express', 'TypeScript', 'Express.js', 'MongoDB/MySQL', 'RESTfull / GraphQL', 'Socket.io' ],
-		institute: 'NGen IT | Bit Encrypt IT | Ayman Group',
+		institute: 'Dream Touch | NGen IT | Bit Encrypt IT ',
 		duration: '3 Years'
 	},
 	{
 		title: 'Fronted',
 		topics: [ 'React', 'Next.js', 'Redux', 'Tailwind | Material-UI', 'TypeScript', 'Socket.io', 'WebRTC'],
-		institute: 'NGen IT | Bit Encrypt IT | Limon Hive',
+		institute: 'Dream Touch | NGen IT | Bit Encrypt IT',
 		duration: '2 Years'
 	},
 	{
