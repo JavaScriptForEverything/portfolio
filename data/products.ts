@@ -1,8 +1,8 @@
 export const products = [
 	{
 		id: '67ce6c27f0c7df05978239a4',
-    slug: 'luxeinterior',
-    title: 'LuxeInterior - Premium Interior Design Studio',
+    slug: 'dream-touch',
+    title: 'Dream Touch Interior Design',
     subheader: 'High-End Interior Design Portfolio Platform',
 		coverPhoto: '/images/projects/dream-touch/page-2.png',
 		images: [
@@ -43,8 +43,8 @@ export const products = [
 	},
 	{
 		id: '67ce6c2750c7df05978239a4',
-		slug: 'nmart',
-    title: 'N-Mart - Modern E-Commerce Platform',
+		slug: 'emart',
+    title: 'E-mart - Modern E-Commerce Platform',
     subheader: 'Full-Featured Online Retail Solution',
 		coverPhoto: '/images/projects/nmart/home.png',
 		images: [
@@ -88,7 +88,7 @@ export const products = [
 		],
 		hasCredentials: false,
 		websiteUrl: '',
-		projectUrl: '',
+		projectUrl: 'https://github.com/JavaScriptForEverything/nmart/',
 		videoUrl: ''
 	},
 	{
@@ -135,7 +135,7 @@ export const products = [
 		],
 		hasCredentials: false,
 		websiteUrl: 'https://readyhow.com/',
-		projectUrl: '',
+		projectUrl: 'https://github.com/JavaScriptForEverything/ready-how',
 		videoUrl: ''
 	},
 	{
@@ -243,53 +243,6 @@ export const products = [
 		projectUrl: '',
 		videoUrl: 'https://youtu.be/pSLaFQgS7qQ'
 	},
-	// {
-	// 	id: '63691d3748344b433ce5ecdd',
-	// 	slug: 'webrtc-video-calling-and-messaging-application',
-	// 	coverPhoto: '/images/projects/webrtc/cover-photo.png',
-	// 	images: [
-	// 		'/images/projects/webrtc/01_home-page-desktop-view.png',
-	// 		'/images/projects/webrtc/02_home-page-mobile-view-with-panel.png',
-	// 		'/images/projects/webrtc/03_home-page-mobile-view-hide-panel.png.png',
-	// 		'/images/projects/webrtc/04_caller-side-desktop-view.png',
-	// 		'/images/projects/webrtc/05_callee-side-mobile-view.png',
-	// 		'/images/projects/webrtc/06_reject-view.png',
-	// 		'/images/projects/webrtc/07_reject-view.png',
-	// 		'/images/projects/webrtc/08_accept-view.png',
-	// 		'/images/projects/webrtc/09_accept-view.png',
-	// 		'/images/projects/webrtc/10_typing_message.png',
-	// 		'/images/projects/webrtc/11_messaging view.png',
-	// 		'/images/projects/webrtc/12_screen-sharing.png',
-	// 		'/images/projects/webrtc/13_screen-sharing.png',
-	// 		'/images/projects/webrtc/14_recording.png',
-	// 		'/images/projects/webrtc/15_play_recording_video.png',
-	// 		'/images/projects/webrtc/16_error-handling-view.png',
-
-	// 	],
-	// 	title: 'Video Call + Messaging | Socket.io, WebRTC, Express, pug, Tailwind-css | Full-Stack',
-	// 	subheader: 'Video-chat Application',
-	// 	summary: `
-	// 		It is a chatting application between user via WebRTC technology
-	// 		socket.io used only as STUN server but data communication happend
-	// 		via end-to-end browser (behind the NAT networking).
-	// 		as websocket (socket.io) or AJAX (fetch or XMLHTTPRequest) is client-server
-	// 		architracture while WebRTC is client-to-client architracture. so we can send any
-	// 		large number data between users without any restriction or limitation and alsow support
-	// 		data channel security, it also support both TCP and UDP protocol.
-	// 		...
-	// 	`,
-	// 	technologies: [
-	// 		'WebRTC',
-	// 		'Socket.io',
-	// 		'Node, Express',
-	// 		'pug',
-	// 		'Tailwind-css',
-	// 	],
-	// 	hasCredentials: false,
-	// 	websiteUrl: 'https://webrtc-video-call-yt6x.onrender.com/',
-	// 	projectUrl: 'https://github.com/JavaScriptForEverything/webrtc',
-	// 	videoUrl: 'https://youtu.be/67tf9qnA1Bg'
-	// },
 	{
 		id: '63691d3748344b433ce5ecdd',
 		slug: 'react-native-app',
@@ -372,54 +325,101 @@ export const products = [
 		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty',
 		videoUrl: 'https://youtu.be/VP_qh7fVLu4'
 	},
-	// {
-	// 	id: '63691d3748944b433cc5ecda',
-	// 	slug: 'shopping-showroom',
-	// 	coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
-	// 	images: [
-	// 	 	'/images/projects/shop-next-ts-graphql/cover-photo.png',
-	// 		'/images/projects/shop-next-ts-graphql/carousel.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-1.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-2.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-3.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-4.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-5.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-6.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-7.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-8.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-9.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-10.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-11.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-12.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-13.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-14.png',
-	// 		'/images/projects/shop-next-ts-graphql/images-15.png',
-	// 	],
-	// 	title: 'Shopping Showroom',
-	// 	subheader: 'E-Commerce',
-	// 	summary: `
-	// 		Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
-	// 		only difference is that here used TypeScript instead of JavaScript, and
-	// 		GraphQL instead of REST API. It has user dashboard, authentication via
-	// 		JWT web token, forget password with email validation, and payment via Stripe.
-	// 		beside it is fully responsive and user-friendly UI, to design used the Material-UI
-	// 		framework for UX/UI design concept in mind.
-	// 	`,
-	// 	technologies: [
-	// 		'Next.js',
-	// 		'TypeScript',
-	// 		'GraphQL',
-	// 		'Redux',
-	// 		'Serverless API',
-	// 		'MongoDB',
-	// 		'Stripe ',
-	// 		'Nodemailer',
-	// 	],
-	// 	hasCredentials: true,
-	// 	websiteUrl: '',
-	// 	projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
-	// 	videoUrl: 'https://youtu.be/dQNSk3s1eQk'
-	// },
+	{
+		id: '63691d3748344b433ce5ecdd',
+		slug: 'webrtc-video-calling-and-messaging-application',
+		coverPhoto: '/images/projects/webrtc/cover-photo.png',
+		images: [
+			'/images/projects/webrtc/01_home-page-desktop-view.png',
+			'/images/projects/webrtc/02_home-page-mobile-view-with-panel.png',
+			'/images/projects/webrtc/03_home-page-mobile-view-hide-panel.png.png',
+			'/images/projects/webrtc/04_caller-side-desktop-view.png',
+			'/images/projects/webrtc/05_callee-side-mobile-view.png',
+			'/images/projects/webrtc/06_reject-view.png',
+			'/images/projects/webrtc/07_reject-view.png',
+			'/images/projects/webrtc/08_accept-view.png',
+			'/images/projects/webrtc/09_accept-view.png',
+			'/images/projects/webrtc/10_typing_message.png',
+			'/images/projects/webrtc/11_messaging view.png',
+			'/images/projects/webrtc/12_screen-sharing.png',
+			'/images/projects/webrtc/13_screen-sharing.png',
+			'/images/projects/webrtc/14_recording.png',
+			'/images/projects/webrtc/15_play_recording_video.png',
+			'/images/projects/webrtc/16_error-handling-view.png',
+
+		],
+		title: 'Video Call + Messaging | Socket.io, WebRTC, Express, pug, Tailwind-css | Full-Stack',
+		subheader: 'Video-chat Application',
+		summary: `
+			It is a chatting application between user via WebRTC technology
+			socket.io used only as STUN server but data communication happend
+			via end-to-end browser (behind the NAT networking).
+			as websocket (socket.io) or AJAX (fetch or XMLHTTPRequest) is client-server
+			architracture while WebRTC is client-to-client architracture. so we can send any
+			large number data between users without any restriction or limitation and alsow support
+			data channel security, it also support both TCP and UDP protocol.
+			...
+		`,
+		technologies: [
+			'WebRTC',
+			'Socket.io',
+			'Node, Express',
+			'pug',
+			'Tailwind-css',
+		],
+		hasCredentials: false,
+		websiteUrl: 'https://webrtc-video-call-yt6x.onrender.com/',
+		projectUrl: 'https://github.com/JavaScriptForEverything/webrtc',
+		videoUrl: 'https://youtu.be/67tf9qnA1Bg'
+	},
+	{
+		id: '63691d3748944b433cc5ecda',
+		slug: 'shopping-showroom',
+		coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
+		images: [
+		 	'/images/projects/shop-next-ts-graphql/cover-photo.png',
+			'/images/projects/shop-next-ts-graphql/carousel.png',
+			'/images/projects/shop-next-ts-graphql/images-1.png',
+			'/images/projects/shop-next-ts-graphql/images-2.png',
+			'/images/projects/shop-next-ts-graphql/images-3.png',
+			'/images/projects/shop-next-ts-graphql/images-4.png',
+			'/images/projects/shop-next-ts-graphql/images-5.png',
+			'/images/projects/shop-next-ts-graphql/images-6.png',
+			'/images/projects/shop-next-ts-graphql/images-7.png',
+			'/images/projects/shop-next-ts-graphql/images-8.png',
+			'/images/projects/shop-next-ts-graphql/images-9.png',
+			'/images/projects/shop-next-ts-graphql/images-10.png',
+			'/images/projects/shop-next-ts-graphql/images-11.png',
+			'/images/projects/shop-next-ts-graphql/images-12.png',
+			'/images/projects/shop-next-ts-graphql/images-13.png',
+			'/images/projects/shop-next-ts-graphql/images-14.png',
+			'/images/projects/shop-next-ts-graphql/images-15.png',
+		],
+		title: 'Shopping Showroom',
+		subheader: 'E-Commerce',
+		summary: `
+			Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
+			only difference is that here used TypeScript instead of JavaScript, and
+			GraphQL instead of REST API. It has user dashboard, authentication via
+			JWT web token, forget password with email validation, and payment via Stripe.
+			beside it is fully responsive and user-friendly UI, to design used the Material-UI
+			framework for UX/UI design concept in mind.
+		`,
+		technologies: [
+			'Next.js',
+			'TypeScript',
+			'GraphQL',
+			'Redux',
+			'Serverless API',
+			'MongoDB',
+			'Stripe ',
+			'Nodemailer',
+		],
+		hasCredentials: true,
+		websiteUrl: '',
+		projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
+		videoUrl: 'https://youtu.be/dQNSk3s1eQk'
+	},
 	// {
 	// 	id: '63691d3748944b433cc5ecdb',
 	// 	slug: 'next-amazona-shopping-app',
@@ -471,330 +471,7 @@ export const products = [
 	// 	videoUrl: ''
 	// },
 ]
-/*
-export const projects = [
-  {
-    id: '67ce6c27f0c7df05978239a4',
-    slug: 'dream-touch',
-    title: 'Dream Touch Interior Design',
-    subheader: 'Premium Interior Design Portfolio',
-    coverPhoto: '/images/projects/dream-touch/home.png',
-    images: [
-      '/images/projects/dream-touch/home.png',
-      '/images/projects/dream-touch/portfolio.png',
-      '/images/projects/dream-touch/gallery.png',
-      '/images/projects/dream-touch/contact.png'
-    ],
-    summary: 'A sophisticated showcase for high-end interior design services featuring 3D room visualizations, project galleries, and client collaboration tools.',
-    features: [
-      'Interactive 3D room designer',
-      'Before/after project comparisons',
-      'Product catalog with AR preview',
-      'Client mood board generator',
-      'SEO-optimized design blog'
-    ],
-    technologies: [
-      'React.js',
-      'Three.js',
-      'Next.js',
-      'Tailwind CSS',
-      'Node.js',
-      'WebXR'
-    ],
-    hasCredentials: false,
-    websiteUrl: '',
-    projectUrl: '',
-    videoUrl: ''
-  },
-  {
-    id: '67ce6c2750c7df05978239a4',
-    slug: 'nmart',
-    title: 'N-Mart E-Commerce',
-    subheader: 'Full-Featured Online Retail Platform',
-    coverPhoto: '/images/projects/nmart/home.png',
-    images: [
-      '/images/projects/nmart/home.png',
-      '/images/projects/nmart/product.png',
-      '/images/projects/nmart/cart.png',
-      '/images/projects/nmart/admin.png'
-    ],
-    summary: 'A complete e-commerce solution with multi-payment support, advanced inventory management, and role-based administration.',
-    features: [
-      'Multi-provider authentication (Google/Facebook)',
-      'JWT-based secure access control',
-      'Integrated payments (Stripe/SSLCommerz)',
-      'Real-time order tracking',
-      'Automated database backups'
-    ],
-    technologies: [
-      'Node.js',
-      'TypeScript',
-      'MongoDB',
-      'Next.js',
-      'React.js',
-      'Tailwind CSS',
-      'Docker',
-      'Kubernetes'
-    ],
-    hasCredentials: false,
-    websiteUrl: '',
-    projectUrl: '',
-    videoUrl: ''
-  },
-  {
-    id: '67ce6c2750c7df05978239a6',
-    slug: 'readyhow',
-    title: 'ReadyHow Marketplace',
-    subheader: 'Multi-Vendor E-Commerce Platform',
-    coverPhoto: '/images/projects/readyhow/home.png',
-    images: [
-      '/images/projects/readyhow/home.png',
-      '/images/projects/readyhow/vendor.png',
-      '/images/projects/readyhow/checkout.png',
-      '/images/projects/readyhow/admin.png'
-    ],
-    summary: 'A scalable marketplace solution connecting multiple vendors with buyers through secure transactions and real-time communication.',
-    features: [
-      'Vendor management portals',
-      'Real-time notifications',
-      'Commission tracking',
-      'Large file handling',
-      'Advanced search filters'
-    ],
-    technologies: [
-      'Node.js',
-      'TypeScript',
-      'MongoDB',
-      'Next.js',
-      'React.js',
-      'Tailwind CSS',
-      'Socket.io',
-      'Docker',
-      'Kubernetes'
-    ],
-    hasCredentials: false,
-    websiteUrl: 'https://readyhow.com/',
-    projectUrl: '',
-    videoUrl: ''
-  },
-  {
-    id: '63691e3748954b433be5ecdd',
-    slug: 'messenger-clone',
-    title: 'ConnectMe Messenger',
-    subheader: 'Real-Time Communication Platform',
-    coverPhoto: '/images/projects/messenger/file-upload-progress-bar.png',
-    images: [
-      '/images/projects/messenger/active-users.png',
-      '/images/projects/messenger/call-interface.png',
-      '/images/projects/messenger/file-sharing.png'
-    ],
-    summary: 'A secure messaging platform featuring WebRTC video calls, file sharing, and end-to-end encrypted communications.',
-    features: [
-      'Audio/video calling',
-      'P2P file transfers (up to 2GB)',
-      'Message encryption',
-      'Typing indicators',
-      'Cross-device sync'
-    ],
-    technologies: [
-      'Node.js',
-      'WebRTC',
-      'Socket.io',
-      'MongoDB',
-      'Tailwind CSS',
-      'Service Workers'
-    ],
-    hasCredentials: false,
-    websiteUrl: 'https://messenger-1-73xb.onrender.com/',
-    projectUrl: '',
-    videoUrl: 'https://youtu.be/uQtPaz1XYVE'
-  },
-  {
-    id: '63691d3748944b433ce5ecdd',
-    slug: 'twitter-clone',
-    title: 'SocialBird Twitter Clone',
-    subheader: 'Microblogging Platform',
-    coverPhoto: '/images/projects/twitter-clone/cover-photo.png',
-    images: [
-      '/images/projects/twitter-clone/feed.png',
-      '/images/projects/twitter-clone/profile.png',
-      '/images/projects/twitter-clone/notifications.png'
-    ],
-    summary: 'A full-featured social media platform with real-time updates, threaded conversations, and media sharing capabilities.',
-    features: [
-      'Tweet/retweet functionality',
-      'Real-time notifications',
-      'Direct messaging',
-      'Media attachments',
-      'Search and discovery'
-    ],
-    technologies: [
-      'Node.js',
-      'Socket.io',
-      'MongoDB',
-      'Tailwind CSS'
-    ],
-    hasCredentials: false,
-    websiteUrl: 'https://twitter-clone-06nd.onrender.com/',
-    projectUrl: '',
-    videoUrl: 'https://youtu.be/pSLaFQgS7qQ'
-  },
-  {
-    id: '63691d3748344b433ce5ecdd',
-    slug: 'react-native-app',
-    title: 'Mobile Showroom',
-    subheader: 'E-Commerce React Native App',
-    coverPhoto: '/images/projects/react-native/cover-photo.png',
-    images: [
-      '/images/projects/react-native/home.png',
-      '/images/projects/react-native/product.png',
-      '/images/projects/react-native/cart.png'
-    ],
-    summary: 'A cross-platform mobile shopping experience with QR payments and seamless API integration with web counterpart.',
-    features: [
-      'Shared API with web platform',
-      'QR code payments',
-      'Offline capabilities',
-      'Push notifications',
-      'Biometric auth'
-    ],
-    technologies: [
-      'React Native',
-      'Node.js',
-      'Tailwind CSS',
-      'Socket.io'
-    ],
-    hasCredentials: false,
-    websiteUrl: '',
-    projectUrl: 'https://github.com/JavaScriptForEverything/react-native',
-    videoUrl: ''
-  },
-  {
-    id: '63691d3748944b433cc5ecdc',
-    slug: 'front-end-coding-challange',
-    title: 'Rick & Morty Explorer',
-    subheader: 'Frontend Development Challenge',
-    coverPhoto: '/images/projects/rick-and-morty/cover-photo.png',
-    images: [
-      '/images/projects/rick-and-morty/character-browser.png',
-      '/images/projects/rick-and-morty/episode-view.png',
-      '/images/projects/rick-and-morty/mobile-view.png'
-    ],
-    summary: 'Award-winning implementation of Rick & Morty API browser showcasing advanced React patterns and state management.',
-    features: [
-      'Dynamic pagination',
-      'Advanced filtering',
-      'Responsive design',
-      'API caching',
-      'Accessibility focus'
-    ],
-    technologies: [
-      'React',
-      'Redux',
-      'Material-UI',
-      'TypeScript',
-      'REST API'
-    ],
-    hasCredentials: false,
-    websiteUrl: 'https://rick-and-morty-ts.netlify.app/',
-    projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty',
-    videoUrl: 'https://youtu.be/VP_qh7fVLu4'
-  },
-  // {
-  //   id: '63691d3748344b433ce5ecdd',
-  //   slug: 'webrtc-video-calling-and-messaging-application',
-  //   title: 'VideoConnect',
-  //   subheader: 'WebRTC Communication Platform',
-  //   coverPhoto: '/images/projects/webrtc/cover-photo.png',
-  //   images: [
-  //     '/images/projects/webrtc/call-interface.png',
-  //     '/images/projects/webrtc/screen-sharing.png',
-  //     '/images/projects/webrtc/mobile-view.png'
-  //   ],
-  //   summary: 'A peer-to-peer communication solution with screen sharing and recording capabilities using WebRTC technology.',
-  //   features: [
-  //     'Browser-based video calls',
-  //     'Screen sharing',
-  //     'Call recording',
-  //     'NAT traversal',
-  //     'End-to-end encryption'
-  //   ],
-  //   technologies: [
-  //     'WebRTC',
-  //     'Socket.io',
-  //     'Node.js',
-  //     'Express',
-  //     'Tailwind CSS'
-  //   ],
-  //   hasCredentials: false,
-  //   websiteUrl: 'https://webrtc-video-call-yt6x.onrender.com/',
-  //   projectUrl: 'https://github.com/JavaScriptForEverything/webrtc',
-  //   videoUrl: 'https://youtu.be/67tf9qnA1Bg'
-  // },
-  // {
-  //   id: '63691d3748944b433cc5ecda',
-  //   slug: 'shopping-showroom',
-  //   title: 'ShopNest',
-  //   subheader: 'GraphQL E-Commerce',
-  //   coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
-  //   images: [
-  //     '/images/projects/shop-next-ts-graphql/home.png',
-  //     '/images/projects/shop-next-ts-graphql/product.png',
-  //     '/images/projects/shop-next-ts-graphql/checkout.png'
-  //   ],
-  //   summary: 'A TypeScript e-commerce platform with GraphQL API, featuring advanced product management and Stripe integration.',
-  //   features: [
-  //     'GraphQL API',
-  //     'TypeScript foundation',
-  //     'Stripe payments',
-  //     'Email verification',
-  //     'Admin dashboard'
-  //   ],
-  //   technologies: [
-  //     'Next.js',
-  //     'TypeScript',
-  //     'GraphQL',
-  //     'Redux',
-  //     'MongoDB',
-  //     'Stripe',
-  //     'Nodemailer'
-  //   ],
-  //   hasCredentials: true,
-  //   websiteUrl: '',
-  //   projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
-  //   videoUrl: 'https://youtu.be/dQNSk3s1eQk'
-  // },
-  // {
-  //   id: '63691d3748944b433cc5ecdb',
-  //   slug: 'next-amazona-shopping-app',
-  //   title: 'NextAmazona',
-  //   subheader: 'E-Commerce Platform',
-  //   coverPhoto: '/images/projects/next-amazona/cover-photo.png',
-  //   images: [
-  //     '/images/projects/next-amazona/home.png',
-  //     '/images/projects/next-amazona/product.png',
-  //     '/images/projects/next-amazona/admin.png'
-  //   ],
-  //   summary: 'A server-rendered e-commerce solution with payment processing and inventory management capabilities.',
-  //   features: [
-  //     'SSR performance',
-  //     'JWT authentication',
-  //     'Stripe integration',
-  //     'Product management',
-  //     'Order tracking'
-  //   ],
-  //   technologies: [
-  //     'Next.js',
-  //     'Node.js',
-  //     'MongoDB',
-  //     'Redux',
-  //     'Stripe',
-  //     'Tailwind CSS'
-  //   ],
-  //   hasCredentials: true,
-  //   websiteUrl: '',
-  //   projectUrl: 'https://github.com/JavaScriptForEverything/next-amazona',
-  //   videoUrl: ''
-  // }
-];
-*/
+
+
+
+
