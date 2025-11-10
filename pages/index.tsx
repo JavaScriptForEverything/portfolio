@@ -62,7 +62,8 @@ const HomePage = () => {
 						<Typography component='span' variant='h4' color='primary' sx={{ fontFamily: 'custo-regular', }} >Riajul Islam </Typography>
 
 						<Typography color='textSecondary' paragraph variant='body2' component='h1' sx={{ mt: 1, mb: 2 }}>
-							Full-Stack Developer | Node.js | Next.js | TypeScript | DevOps
+							{/* Full-Stack Developer | Node.js | Next.js | TypeScript | DevOps */}
+							Full-Stack Engineer (MERN) | DevOps & Cloud Deployment | Building Scalable Web Apps
 						</Typography>
 
 
@@ -80,15 +81,21 @@ const HomePage = () => {
 
 						<Typography component='section' color='textSecondary' align='justify' sx={{ mt: 4 }} >
 							<Typography paragraph variant='body2'>
-								I&apos;m a passionate <strong>Full-Stack Web Developer</strong>,
+								Senior Software Engineer specializing in full-stack development, scalable architecture, and container-based deployment. 
+								I work across the entire lifecycle of modern web applications — from clean frontend experiences to robust backend systems, 
+								CI/CD pipelines, and production-grade DevOps.
+								{/* I&apos;m a passionate <strong>Full-Stack Web Developer</strong>,
 								with over <strong>5+ years of experience</strong>,
-								in designing and developing user-friendly, scalable, and feature-rich web applications. I thrive on solving complex problems and turning ideas into reality through clean, efficient code.
+								in designing and developing user-friendly, scalable, and feature-rich web applications. I thrive on solving complex problems and turning ideas into reality through clean, efficient code. */}
 							</Typography>
 
 							<Typography paragraph variant='body2'>
-								I specialize in <strong> React, Node.js, and modern web technologies </strong>, 
+								Currently at 9AM Solution, I play a key role in designing and scaling Bizlyne ERP — a complete multi-tenant ERP ecosystem 
+								serving HRM, CRM, POS, medicine shops, general stores, and multi-category e-commerce businesses. Proven track record in 
+								delivering enterprise-grade applications with multi-vendor ecosystems, real-time communication features, and high-performance APIs.
+								{/* I specialize in <strong> React, Node.js, and modern web technologies </strong>, 
 								and I&apos;m always eager to take on new challenges. Whether it&apos;s building a 
-								robust backend, crafting a sleek frontend, or deploying applications with <strong>Docker</strong> and <strong>Kubernetes</strong>, I&apos;m your go-to developer!
+								robust backend, crafting a sleek frontend, or deploying applications with <strong>Docker</strong> and <strong>Kubernetes</strong>, I&apos;m your go-to developer! */}
 							</Typography>
 						</Typography>
 					</Grid>

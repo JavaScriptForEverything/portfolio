@@ -1,44 +1,45 @@
 export const products = [
 	{
-		id: '67ce6c27f0c7df05978239a4',
-    slug: 'dream-touch',
-    title: 'Dream Touch Interior Design',
-    subheader: 'High-End Interior Design Portfolio Platform',
-		coverPhoto: '/images/projects/dream-touch/page-2.png',
+		id: '67ce6c27f0c7df05378139a4',
+    slug: 'bizlyne',
+    title: 'ERP Solution',
+    subheader: 'Multi-tenant architecture with dynamic subdomains',
+		coverPhoto: '/images/projects/bizlyne/page-1.png',
 		images: [
-			'/images/projects/dream-touch/page-1.png',
-			'/images/projects/dream-touch/page-2.png',
-			'/images/projects/dream-touch/page-3.png',
-			'/images/projects/dream-touch/page-4.png',
-			'/images/projects/dream-touch/page-5.png',
+			'/images/projects/bizlyne/page-1.png',
+			'/images/projects/bizlyne/page-2.png',
+			'/images/projects/bizlyne/page-3.png',
+			'/images/projects/bizlyne/page-4.png',
+			'/images/projects/bizlyne/page-5.png',
 		],
 
     summary: `
-      A sophisticated portfolio platform for a luxury interior design studio featuring 3D room visualizations,
-      project galleries, and client collaboration tools. The solution showcases premium design work while
-      providing business tools for lead generation and client engagement.
+      Bizlyne ERP — a complete multi-tenant ERP ecosystem serving HRM, CRM, POS, medicine shops, general stores, and multi-category e-commerce businesses
     `,
 		lists: [
-      'Immersive 3D room visualizer with material/furniture customization',
-      'Before/after project galleries with interactive sliders',
-      'Client mood board generator with drag-and-drop interface',
-      'AR "View in Your Space" feature for product visualization',
-      'SEO-optimized blog with design insights and trends',
+			'Designed multi-tenant architecture with dynamic, auto-generated subdomains for each shop.',
+			'Implemented CI/CD pipelines using GitHub Actions with fully containerized Docker + Kubernetes workflow.',
+			'Engineered HRM, CRM, and inventory modules with scalable business logic and enterprise data models.',
+			'Developed high-performance backend API stack using Express.js, TypeScript, and MongoDB.',
+			'Improved API security, validation, and performance with optimized request handling and data abstraction.',
+			'Led VPS deployment using Docker Compose + Nginx reverse-proxy for seamless routing and scaling.',
+			'Built role-based access control with granular permissions for multi-tenant user groups.',
+			'Collaborated closely with frontend teams to deliver consistent schemas, performance budgets, and API contracts.				',
 			'...', 
 		],
 		technologies: [
 			'Node.js', 
 			'TypeScript',
 			'MongoDB',
-			'Next.js',
-			'React.js',
+			'React.js (vite)',
 			'Tailwind-css',
 			'Docker',
 			'Kubernetes',
+			'Jenkins',
 		],
 		hasCredentials: false,
-		websiteUrl: 'http://157.173.218.4:3000/',
-		projectUrl: 'https://github.com/JavaScriptForEverything/dream-touch-portfolio',
+		websiteUrl: 'https://bizlyne.com/',
+		projectUrl: 'https://github.com/JavaScriptForEverything/bizlyne-9am',
 		videoUrl: ''
 	},
 	{
@@ -136,6 +137,48 @@ export const products = [
 		hasCredentials: false,
 		websiteUrl: 'https://readyhow.com/',
 		projectUrl: 'https://github.com/JavaScriptForEverything/ready-how',
+		videoUrl: ''
+	},
+	{
+		id: '67ce6c27f0c7df05978239a4',
+    slug: 'dream-touch',
+    title: 'Dream Touch Interior Design',
+    subheader: 'High-End Interior Design Portfolio Platform',
+		coverPhoto: '/images/projects/dream-touch/page-2.png',
+		images: [
+			'/images/projects/dream-touch/page-1.png',
+			'/images/projects/dream-touch/page-2.png',
+			'/images/projects/dream-touch/page-3.png',
+			'/images/projects/dream-touch/page-4.png',
+			'/images/projects/dream-touch/page-5.png',
+		],
+
+    summary: `
+      A sophisticated portfolio platform for a luxury interior design studio featuring 3D room visualizations,
+      project galleries, and client collaboration tools. The solution showcases premium design work while
+      providing business tools for lead generation and client engagement.
+    `,
+		lists: [
+      'Immersive 3D room visualizer with material/furniture customization',
+      'Before/after project galleries with interactive sliders',
+      'Client mood board generator with drag-and-drop interface',
+      'AR "View in Your Space" feature for product visualization',
+      'SEO-optimized blog with design insights and trends',
+			'...', 
+		],
+		technologies: [
+			'Node.js', 
+			'TypeScript',
+			'MongoDB',
+			'Next.js',
+			'React.js',
+			'Tailwind-css',
+			'Docker',
+			'Kubernetes',
+		],
+		hasCredentials: false,
+		websiteUrl: 'http://157.173.218.4:3000/',
+		projectUrl: 'https://github.com/JavaScriptForEverything/dream-touch-portfolio',
 		videoUrl: ''
 	},
 	{
@@ -372,54 +415,54 @@ export const products = [
 		projectUrl: 'https://github.com/JavaScriptForEverything/webrtc',
 		videoUrl: 'https://youtu.be/67tf9qnA1Bg'
 	},
-	{
-		id: '63691d3748944b433cc5ecda',
-		slug: 'shopping-showroom',
-		coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
-		images: [
-		 	'/images/projects/shop-next-ts-graphql/cover-photo.png',
-			'/images/projects/shop-next-ts-graphql/carousel.png',
-			'/images/projects/shop-next-ts-graphql/images-1.png',
-			'/images/projects/shop-next-ts-graphql/images-2.png',
-			'/images/projects/shop-next-ts-graphql/images-3.png',
-			'/images/projects/shop-next-ts-graphql/images-4.png',
-			'/images/projects/shop-next-ts-graphql/images-5.png',
-			'/images/projects/shop-next-ts-graphql/images-6.png',
-			'/images/projects/shop-next-ts-graphql/images-7.png',
-			'/images/projects/shop-next-ts-graphql/images-8.png',
-			'/images/projects/shop-next-ts-graphql/images-9.png',
-			'/images/projects/shop-next-ts-graphql/images-10.png',
-			'/images/projects/shop-next-ts-graphql/images-11.png',
-			'/images/projects/shop-next-ts-graphql/images-12.png',
-			'/images/projects/shop-next-ts-graphql/images-13.png',
-			'/images/projects/shop-next-ts-graphql/images-14.png',
-			'/images/projects/shop-next-ts-graphql/images-15.png',
-		],
-		title: 'Shopping Showroom',
-		subheader: 'E-Commerce',
-		summary: `
-			Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
-			only difference is that here used TypeScript instead of JavaScript, and
-			GraphQL instead of REST API. It has user dashboard, authentication via
-			JWT web token, forget password with email validation, and payment via Stripe.
-			beside it is fully responsive and user-friendly UI, to design used the Material-UI
-			framework for UX/UI design concept in mind.
-		`,
-		technologies: [
-			'Next.js',
-			'TypeScript',
-			'GraphQL',
-			'Redux',
-			'Serverless API',
-			'MongoDB',
-			'Stripe ',
-			'Nodemailer',
-		],
-		hasCredentials: true,
-		websiteUrl: '',
-		projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
-		videoUrl: 'https://youtu.be/dQNSk3s1eQk'
-	},
+	// {
+	// 	id: '63691d3748944b433cc5ecda',
+	// 	slug: 'shopping-showroom',
+	// 	coverPhoto: '/images/projects/shop-next-ts-graphql/cover-photo.png',
+	// 	images: [
+	// 	 	'/images/projects/shop-next-ts-graphql/cover-photo.png',
+	// 		'/images/projects/shop-next-ts-graphql/carousel.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-1.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-2.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-3.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-4.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-5.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-6.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-7.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-8.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-9.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-10.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-11.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-12.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-13.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-14.png',
+	// 		'/images/projects/shop-next-ts-graphql/images-15.png',
+	// 	],
+	// 	title: 'Shopping Showroom',
+	// 	subheader: 'E-Commerce',
+	// 	summary: `
+	// 		Hi there, it is a e-commerse applications same as 'Next-Amazona' project,
+	// 		only difference is that here used TypeScript instead of JavaScript, and
+	// 		GraphQL instead of REST API. It has user dashboard, authentication via
+	// 		JWT web token, forget password with email validation, and payment via Stripe.
+	// 		beside it is fully responsive and user-friendly UI, to design used the Material-UI
+	// 		framework for UX/UI design concept in mind.
+	// 	`,
+	// 	technologies: [
+	// 		'Next.js',
+	// 		'TypeScript',
+	// 		'GraphQL',
+	// 		'Redux',
+	// 		'Serverless API',
+	// 		'MongoDB',
+	// 		'Stripe ',
+	// 		'Nodemailer',
+	// 	],
+	// 	hasCredentials: true,
+	// 	websiteUrl: '',
+	// 	projectUrl: 'https://github.com/JavaScriptForEverything/shop-next-ts-graphql',
+	// 	videoUrl: 'https://youtu.be/dQNSk3s1eQk'
+	// },
 	// {
 	// 	id: '63691d3748944b433cc5ecdb',
 	// 	slug: 'next-amazona-shopping-app',
