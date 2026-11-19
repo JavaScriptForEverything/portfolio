@@ -1,5 +1,76 @@
 export const products = [
 	{
+		id: '67ce6c27f0c7df05978139b5', // generate a unique ObjectId
+		slug: 'businessnify',
+		title: 'Businessnify - Multi-Tenant SaaS Platform',
+		subheader: 'Launch a branded online business — own store, domain, database and dashboard — in minutes',
+		coverPhoto: '/images/projects/businessnify/saas/landing.png',
+		images: [
+			// SaaS platform
+			'/images/projects/businessnify/saas/landing.png',
+			'/images/projects/businessnify/saas/business-types.png',
+			'/images/projects/businessnify/saas/pricing.png',
+			'/images/projects/businessnify/saas/pricing-and-checkout.png',
+			// Tenant (e-commerce) store
+			'/images/projects/businessnify/ecommerce/landing-page.png',
+			'/images/projects/businessnify/ecommerce/shop-products.png',
+			'/images/projects/businessnify/ecommerce/checkout.png',
+			'/images/projects/businessnify/ecommerce/credentials.png',
+			'/images/projects/businessnify/ecommerce/dashboard.png',
+			'/images/projects/businessnify/ecommerce/inventory.png',
+		],
+
+		summary: `
+			Businessnify is a multi-tenant SaaS platform that lets anyone launch their own online
+			business — with their own storefront, admin dashboard, isolated database, and custom
+			domain with free automatic SSL — in minutes. A business owner picks a business type
+			(E-commerce, Restaurant, Medicine, Vehicle), picks a subscription tier, checks out,
+			and the tenant is provisioned automatically: own database, subdomain, roles, branch,
+			warehouse and settings. Each tenant is fully isolated (one database per tenant), with
+			shared platform services for billing, auth, RBAC, payments, messaging and analytics.
+			E-commerce is complete and ready to sell; the other three business types share the
+			same foundation and are being finished.
+		`,
+		lists: [
+			'Multi-tenant architecture with one isolated database per tenant',
+			'Automatic tenant provisioning: database, roles, admin user, branch, warehouse, settings',
+			'Subdomain routing + custom domain support with verification and free dynamic SSL',
+			'Four business types on one platform (E-commerce live; Restaurant, Medicine, Vehicle in progress)',
+			'Subscriptions & billing: free/paid tiers, 12/24/36-month pricing, per-country price books, coupons, trial/renewal/upgrade with proration',
+			'Separate auth for staff vs customers: email/password, phone OTP, Google, Facebook; httpOnly access + refresh tokens',
+			'RBAC with custom roles, 200+ permissions and wildcard permissions',
+			'Full e-commerce stack: 3-level categories, variants, flash sales, coupons, cart, wishlist, multi-address checkout',
+			'Payments: Cash on Delivery, Stripe, SSLCommerz with webhook validation and duplicate-payment protection',
+			'Branches + warehouses with on-hand / allocated / available stock and audit trail',
+			'Real-time notifications via Socket.IO (orders, status, unread counts, storage quota)',
+			'Email (SMTP), Android SMS gateway, WhatsApp Cloud API — multiple credentials per channel with fallback',
+			'Per-tenant backups (tar.gz, SHA-256 verified) with restore + dry-run in isolated workers',
+			'Redis rate limiting + caching with automatic invalidation, HTML/XSS sanitization, soft delete/restore',
+		],
+		technologies: [
+			'TypeScript',
+			'Node.js',
+			'Express',
+			'Mongoose',
+			'Zod',
+			'React',
+			'Next.js',
+			'RTK Query',
+			'React Hook Form',
+			'Socket.io',
+			'MongoDB',
+			'Redis',
+			'Docker',
+			'Caddy',
+			'GitHub Actions',
+			'Docker Hub',
+		],
+		hasCredentials: false,
+		websiteUrl: 'https://businessnify.com',
+		projectUrl: '', // source is proprietary/licensed — leave empty
+		videoUrl: 'https://youtu.be/ldFj1BocOQc',
+	},
+	{
 		id: '67ce6c27f0c7df05378139a4',
     slug: 'bizlyne',
     title: 'ERP Solution',
