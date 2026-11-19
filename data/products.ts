@@ -399,46 +399,46 @@ export const products = [
 		projectUrl: 'https://github.com/JavaScriptForEverything/react-native',
 		videoUrl: ''
 	},
-	{
-		id: '63691d3748944b433cc5ecdc',
-		slug: 'front-end-coding-challange',
-		coverPhoto: '/images/projects/rick-and-morty/cover-photo.png',
-		images: [
-			'/images/projects/rick-and-morty/cover-photo.png',
-			'/images/projects/rick-and-morty/images-1.png',
-			'/images/projects/rick-and-morty/images-2.png',
-			'/images/projects/rick-and-morty/images-3.png',
-			'/images/projects/rick-and-morty/images-4.png',
-			'/images/projects/rick-and-morty/images-5.png',
-			'/images/projects/rick-and-morty/images-6.png',
-			// '/images/projects/rick-and-morty/web_2_cast-page.png',
-			// '/images/projects/rick-and-morty/web_3_cast-details-page.png',
-		],
-		title: 'Top Coder Challange | Lemon Hive',
-		subheader: 'Front-End Development Challange',
-		summary: `
-			Top Coder Challenge 2022!  Dear Contestant, Congratulations on your 
-			success in the Lemon Hive Top Coder Challenge 2022! We are pleased 
-			to present you with a certificate commemorating your achievement.  
-			Attached to this email, you will find a copy of your certificate, 
-			as well as a selection of photos from the event. We hope that these 
-			memories will serve as a reminder of your hard work and dedication. 
-			We hope you will enjoy looking back on these memories and sharing 
-			them with your friends and family.
-		`,
-		technologies: [
-			'React',
-			'Redux',
-			'Material-UI',
-			'REST API ',
-			'TypeScript',
-			'MERN Stack',
-		],
-		hasCredentials: false,
-		websiteUrl: 'https://rick-and-morty-ts.netlify.app/',
-		projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty',
-		videoUrl: 'https://youtu.be/VP_qh7fVLu4'
-	},
+	// {
+	// 	id: '63691d3748944b433cc5ecdc',
+	// 	slug: 'front-end-coding-challange',
+	// 	coverPhoto: '/images/projects/rick-and-morty/cover-photo.png',
+	// 	images: [
+	// 		'/images/projects/rick-and-morty/cover-photo.png',
+	// 		'/images/projects/rick-and-morty/images-1.png',
+	// 		'/images/projects/rick-and-morty/images-2.png',
+	// 		'/images/projects/rick-and-morty/images-3.png',
+	// 		'/images/projects/rick-and-morty/images-4.png',
+	// 		'/images/projects/rick-and-morty/images-5.png',
+	// 		'/images/projects/rick-and-morty/images-6.png',
+	// 		// '/images/projects/rick-and-morty/web_2_cast-page.png',
+	// 		// '/images/projects/rick-and-morty/web_3_cast-details-page.png',
+	// 	],
+	// 	title: 'Top Coder Challange | Lemon Hive',
+	// 	subheader: 'Front-End Development Challange',
+	// 	summary: `
+	// 		Top Coder Challenge 2022!  Dear Contestant, Congratulations on your 
+	// 		success in the Lemon Hive Top Coder Challenge 2022! We are pleased 
+	// 		to present you with a certificate commemorating your achievement.  
+	// 		Attached to this email, you will find a copy of your certificate, 
+	// 		as well as a selection of photos from the event. We hope that these 
+	// 		memories will serve as a reminder of your hard work and dedication. 
+	// 		We hope you will enjoy looking back on these memories and sharing 
+	// 		them with your friends and family.
+	// 	`,
+	// 	technologies: [
+	// 		'React',
+	// 		'Redux',
+	// 		'Material-UI',
+	// 		'REST API ',
+	// 		'TypeScript',
+	// 		'MERN Stack',
+	// 	],
+	// 	hasCredentials: false,
+	// 	websiteUrl: 'https://rick-and-morty-ts.netlify.app/',
+	// 	projectUrl: 'https://github.com/JavaScriptForEverything/rick-and-morty',
+	// 	videoUrl: 'https://youtu.be/VP_qh7fVLu4'
+	// },
 	{
 		id: '63691d3748344b433ce5ecdd',
 		slug: 'webrtc-video-calling-and-messaging-application',

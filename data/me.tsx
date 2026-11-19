@@ -3,18 +3,16 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/FacebookRounded'
 import InstagramIcon from '@mui/icons-material/Instagram'
-import YoutubeIcon from '@mui/icons-material/YouTube'
-import { features } from 'process'
-
+import YouTubeIcon from '@mui/icons-material/YouTube'
 
 
 export const socialMediaItems = [
-	{ label: 'github',   	Icon: GitHubIcon, 	path: 'https://github.com/JavaScriptForEverything' },
-	{ label: 'linkedin', 	Icon: LinkedInIcon, path: 'https://www.linkedin.com/in/JavaScriptForEverything/' },
-	{ label: 'twitter',  	Icon: TwitterIcon, 	path: 'https://twitter.com/JSforEverything' },
-	{ label: 'facebook', 	Icon: FacebookIcon, path: 'https://www.facebook.com/JavaScriptForEverything' },
-	{ label: 'instagram', Icon: InstagramIcon, path: 'https://www.instagram.com/JavaScriptForEverything/' },
-	{ label: 'youtube',  	Icon: YoutubeIcon, 	path: 'https://www.youtube.com/@JavaScriptForEverything/' },
+	{ label: 'github',   	Icon: GitHubIcon, path: 'https://github.com/riajul-businessnify' },
+	{ label: 'linkedin', 	Icon: YouTubeIcon, path: 'https://youtube.com/@riajul-businessnify' },
+	{ label: 'twitter',  	Icon: LinkedInIcon, path: 'https://linkedin.com/in/riajul-businessnify' },
+	{ label: 'facebook', 	Icon: TwitterIcon, path: 'https://x.com/businessnify' },
+	{ label: 'instagram', Icon: FacebookIcon, path: 'https://facebook.com/riajul.businessnify' },
+	{ label: 'youtube',  	Icon: InstagramIcon, path: 'https://instagram.com/riajul.businessnify' },
 ]
 
 export const webTechnologies = [

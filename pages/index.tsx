@@ -128,11 +128,19 @@ const HomePage = () => {
 						color: 'white',
 					})} paragraph id='project'>Projects</Typography>
 
-					<Grid container spacing={2}>
+					{/* <Grid container spacing={2}>
 						{products.map( (product, key) => (
 							<Grid key={key} item xs={12} sm={6} md={4} sx={{ 
 								display: 'flex', 
 							}}>
+								<Product {...product} />
+							</Grid>
+						))}
+					</Grid> */}
+
+					<Grid container spacing={2} alignItems='stretch'>
+						{products.map((product, key) => (
+							<Grid key={key} item xs={12} sm={6} md={4} sx={{ display: 'flex' }}>
 								<Product {...product} />
 							</Grid>
 						))}
